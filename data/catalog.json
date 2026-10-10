@@ -1,0 +1,2279 @@
+{
+  "meta": {
+    "project": "Monopoly F1 RU",
+    "version": "2.0",
+    "status": "site_ready_content",
+    "language_source": "de",
+    "language_target": "ru",
+    "content_policy": {
+      "source_of_truth": "uploaded_photos",
+      "translation_style": "natural_board_game_russian",
+      "do_not_change_numbers": true
+    }
+  },
+  "glossary": {
+    "Rennen": "гонка",
+    "Rennfeld": "клетка гонки",
+    "Rennkarte": "карта гонки",
+    "Rennführung": "лидерство",
+    "Rennduell": "гоночная дуэль",
+    "Duellgebühr": "плата за дуэль",
+    "Farbgruppe": "цветовая группа",
+    "komplette Farbgruppe": "полная цветовая группа",
+    "Auto": "автомобиль",
+    "Autokarte": "карта автомобиля",
+    "Autoteil": "деталь автомобиля",
+    "Fahrer": "пилот",
+    "Fahrerkarte": "карта пилота",
+    "Fahrerhelm": "шлем пилота",
+    "Teamtableau": "планшет команды",
+    "Boxenstopp": "пит-стоп",
+    "Boxenstopp-Karte": "карта пит-стопа",
+    "Bank": "банк",
+    "Punkte": "очки",
+    "LOS": "СТАРТ",
+    "Gefängnis": "тюрьма",
+    "Frei Parken": "Бесплатная парковка",
+    "Nur zu Besuch": "Просто в гостях",
+    "Überholen": "Обгон",
+    "Pasch": "дубль",
+    "F1-Würfel": "белый кубик F1",
+    "roter Würfel": "красный кубик"
+  },
+  "shared_text": {
+    "race_front_rule_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen!",
+    "race_front_rule_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство!",
+    "race_owner_win_de": "Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner.",
+    "race_owner_win_ru": "Получите с соперника плату за дуэль (см. обратную сторону).",
+    "race_challenger_win_de": "Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist).",
+    "race_challenger_win_ru": "Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу."
+  },
+  "rules": [
+    {
+      "title_de": "Ziel des Spiels",
+      "text_de": "Umrundet den Spielplan, übernehmt die Führung in Rennen, tretet gegen Gegner an, die auf diesen Rennfeldern landen – und gewinnt Punkte, wenn ihr sie besiegt! Erreicht ihr das „LOS“-Feld, haltet dort an und rückt im „Monopoly Grand Prix™“ vor. Wer als erster Spieler in diesem Rennen die Ziellinie überquert, gewinnt die Drivers’ Championship und das Spiel endet! Der Spieler, der am Ende des Spiels die meisten Punkte hat, gewinnt die Constructors’ Championship.",
+      "title_ru": "Цель игры",
+      "text_ru": "Передвигайтесь по игровому полю, захватывайте лидерство в гонках и сражайтесь с соперниками, которые попадают на ваши гоночные клетки. За победы вы получаете очки. Когда вы доходите до клетки «СТАРТ», остановитесь на ней и продвиньтесь по трассе Monopoly Grand Prix. Первый игрок, пересёкший финишную черту этой трассы, выигрывает чемпионат пилотов (Drivers’ Championship), после чего игра заканчивается. Игрок, набравший к концу игры больше всего очков, выигрывает чемпионат конструкторов (Constructors’ Championship).",
+      "keywords": [
+        "ziel",
+        "ziel des spiels",
+        "drivers championship",
+        "constructors championship",
+        "цель игры",
+        "чемпионат пилотов",
+        "чемпионат конструкторов"
+      ],
+      "id": "rules-001",
+      "category": "rules",
+      "explanation_ru": "Передвигайтесь по полю, захватывайте лидерство в гонках и выигрывайте очки в дуэлях. Первый, кто пересечёт финиш Monopoly Grand Prix, выигрывает чемпионат пилотов; по итоговым очкам определяется чемпион конструкторов.",
+      "source": "IMG_9217.jpg",
+      "search_text": "ziel des spiels цель игры umrundet den spielplan übernehmt die führung in rennen tretet gegen gegner an die auf diesen rennfeldern landen und gewinnt punkte wenn ihr sie besiegt erreicht ihr das los feld haltet dort an und rückt im monopoly grand prix vor wer als erster spieler in diesem rennen die ziellinie überquert gewinnt die drivers championship und das spiel endet der spieler der am ende des spiels die meisten punkte hat gewinnt die constructors championship передвигайтесь по игровому полю захватывайте лидерство в гонках и сражайтесь с соперниками которые попадают на ваши гоночные клетки за победы вы получаете очки когда вы доходите до клетки старт остановитесь на ней и продвиньтесь по трассе monopoly grand prix первый игрок пересекший финишную черту этой трассы выигрывает чемпионат пилотов drivers championship после чего игра заканчивается игрок набравший к концу игры больше всего очков выигрывает чемпионат конструкторов constructors championship ziel ziel des spiels drivers championship constructors championship цель игры чемпионат пилотов чемпионат конструкторов"
+    },
+    {
+      "title_de": "Wer fängt an?",
+      "text_de": "Der Spieler, der als Letzter eine Boxenstopp-Karte ausgewählt hat, startet von der Poleposition und ist als Erster am Zug. Danach geht es reihum im Uhrzeigersinn weiter.",
+      "title_ru": "Кто ходит первым?",
+      "text_ru": "Игрок, который последним выбирал карточку пит-стопа, стартует с поул-позиции и ходит первым. Затем игроки ходят по часовой стрелке.",
+      "keywords": [
+        "wer fängt an",
+        "poleposition",
+        "boxenstopp",
+        "кто ходит первым",
+        "поул-позиция"
+      ],
+      "id": "rules-002",
+      "category": "rules",
+      "explanation_ru": "Игрок, который последним выбирал карту пит-стопа, ходит первым. Далее — по часовой стрелке.",
+      "source": "IMG_9217.jpg",
+      "search_text": "wer fängt an кто ходит первым der spieler der als letzter eine boxenstopp karte ausgewählt hat startet von der poleposition und ist als erster am zug danach geht es reihum im uhrzeigersinn weiter игрок который последним выбирал карточку пит стопа стартует с поул позиции и ходит первым затем игроки ходят по часовой стрелке wer fängt an poleposition boxenstopp кто ходит первым поул позиция"
+    },
+    {
+      "title_de": "Wenn du am Zug bist",
+      "text_de": "1. Würfle mit beiden Würfeln. 2. Rücke mit deiner Auto-Spielfigur entsprechend viele Felder im Uhrzeigersinn vor. Hast du F1® gewürfelt? Du kannst die Sonderfähigkeit deines Teams aktivieren. 3. Auf welchem Feld bist du gelandet? Führe die Anweisung für dieses Feld aus. Hast du einen Pasch gewürfelt? Führe deinen Zug normal durch, würfle danach erneut und mache noch einen Zug. Achtung! Wer dreimal nacheinander einen Pasch würfelt, muss sofort ins Gefängnis! Der dritte Zug wird dann nicht mehr ausgeführt. 4. Nun ist dein Zug beendet. Gib die Würfel an den Spieler zu deiner Linken weiter.",
+      "title_ru": "Ход игрока",
+      "text_ru": "1. Бросьте оба кубика. 2. Передвиньте свою машинку по часовой стрелке на выпавшее число клеток. Если на белом кубике выпал символ F1, вы можете активировать особую способность своей команды. 3. Выполните действие клетки, на которой остановились. Если выпал дубль, завершите ход как обычно, затем снова бросьте кубики и сделайте ещё один ход. Если дубль выпал три раза подряд, немедленно отправляйтесь в тюрьму: третий ход не выполняется. 4. После завершения хода передайте кубики игроку слева.",
+      "keywords": [
+        "zug",
+        "würfeln",
+        "pasch",
+        "F1 würfel",
+        "ход",
+        "дубль",
+        "кубики"
+      ],
+      "id": "rules-003",
+      "category": "rules",
+      "explanation_ru": "Бросьте оба кубика, передвиньте машинку, при F1 можно активировать способность команды, выполните действие клетки. Дубль даёт ещё один ход; три дубля подряд отправляют в тюрьму.",
+      "source": "IMG_9217.jpg",
+      "search_text": "wenn du am zug bist ход игрока 1 würfle mit beiden würfeln 2 rücke mit deiner auto spielfigur entsprechend viele felder im uhrzeigersinn vor hast du f1 gewürfelt du kannst die sonderfähigkeit deines teams aktivieren 3 auf welchem feld bist du gelandet führe die anweisung für dieses feld aus hast du einen pasch gewürfelt führe deinen zug normal durch würfle danach erneut und mache noch einen zug achtung wer dreimal nacheinander einen pasch würfelt muss sofort ins gefängnis der dritte zug wird dann nicht mehr ausgeführt 4 nun ist dein zug beendet gib die würfel an den spieler zu deiner linken weiter 1 бросьте оба кубика 2 передвиньте свою машинку по часовой стрелке на выпавшее число клеток если на белом кубике выпал символ f1 вы можете активировать особую способность своей команды 3 выполните действие клетки на которой остановились если выпал дубль завершите ход как обычно затем снова бросьте кубики и сделайте еще один ход если дубль выпал три раза подряд немедленно отправляйтесь в тюрьму третий ход не выполняется 4 после завершения хода передайте кубики игроку слева zug würfeln pasch f1 würfel ход дубль кубики"
+    },
+    {
+      "title_de": "Teamfähigkeiten",
+      "text_de": "Jedes Team verfügt über eine einzigartige Fähigkeit, die auf dem Teamtableau beschrieben ist! Willst du deine Auto-Spielfigur vorrücken und würfelst F1®, dann aktiviere deine Fähigkeit! Nachdem die Fähigkeit aktiviert ist, gilt für die meisten Spieler, dass sie sich um die mit dem roten Würfel gewürfelte Anzahl von Feldern vorrücken und den Zug wie gewohnt ausführen. Bei einigen Spielern ändert sich durch die Teamfähigkeit jedoch die Art des Vorrückens. Dann können sie sich stattdessen dafür entscheiden, den Fähigkeiten entsprechend vorzurücken.",
+      "title_ru": "Способности команд",
+      "text_ru": "У каждой команды есть уникальная способность, указанная на её планшете. Если при броске для перемещения машины на белом кубике выпадает F1, можно активировать эту способность. Обычно после этого игрок передвигается на число клеток, выпавшее на красном кубике, и продолжает ход как обычно. Некоторые командные способности меняют сам способ перемещения — в таком случае можно использовать указанное в способности перемещение.",
+      "keywords": [
+        "teamfähigkeit",
+        "F1",
+        "teamtableau",
+        "способность команды"
+      ],
+      "id": "rules-004",
+      "category": "rules",
+      "explanation_ru": "Символ F1 на белом кубике позволяет активировать способность команды.",
+      "source": "IMG_9217.jpg",
+      "search_text": "teamfähigkeiten способности команд jedes team verfügt über eine einzigartige fähigkeit die auf dem teamtableau beschrieben ist willst du deine auto spielfigur vorrücken und würfelst f1 dann aktiviere deine fähigkeit nachdem die fähigkeit aktiviert ist gilt für die meisten spieler dass sie sich um die mit dem roten würfel gewürfelte anzahl von feldern vorrücken und den zug wie gewohnt ausführen bei einigen spielern ändert sich durch die teamfähigkeit jedoch die art des vorrückens dann können sie sich stattdessen dafür entscheiden den fähigkeiten entsprechend vorzurücken у каждой команды есть уникальная способность указанная на ее планшете если при броске для перемещения машины на белом кубике выпадает f1 можно активировать эту способность обычно после этого игрок передвигается на число клеток выпавшее на красном кубике и продолжает ход как обычно некоторые командные способности меняют сам способ перемещения в таком случае можно использовать указанное в способности перемещение teamfähigkeit f1 teamtableau способность команды"
+    },
+    {
+      "title_de": "Spielvorbereitung",
+      "text_de": "1. Ein Spieler wird zum Bankhalter ernannt. Er kümmert sich um die Punkte der Bank und Rennkarten. Der Bankhalter darf selbst mitspielen, aber er muss seine Punkte vom Punktevorrat der Bank getrennt halten. 2. Jeder Spieler erhält zu Beginn des Spiels: 5 × 50 und 5 × 10 (Gesamt = 300 Punkte). Die restlichen Punkte-Chips werden als Bank auf einem Stapel aufbewahrt. 3. Mischt die Fahrerkarten und legt sie verdeckt auf den dafür vorgesehenen Platz in der Mitte des Spielplans. 4. Mischt die Autokarten und legt sie verdeckt auf den dafür vorgesehenen Platz in der Mitte des Spielplans. 5. Legt die Würfel neben den Spielplan. 6. Jeder Spieler wählt ein Team. Stellt die Auto-Spielfigur eures Teams auf LOS. Setzt den dazugehörigen Fahrerhelm auf die Startlinie der Monopoly Grand Prix™-Rennstrecke. Legt das jeweilige Teamtableau aufgedeckt vor euch hin. 7. Alle Spieler würfeln mit dem roten Würfel. Der Spieler mit der höchsten Augenzahl wählt eine der Boxenstopp-Karten und legt sie aufgedeckt auf den rot-gelb gestreiften Bereich seines Teamtableaus. Dann wählt die Person links von ihm eine Karte aus usw., bis jeder eine Boxenstopp-Karte hat. 8. Legt nicht benötigte Auto-Spielfiguren, Fahrerhelme, Teamtableaus und Boxenstopp-Karten wieder in die Schachtel.",
+      "title_ru": "Подготовка к игре",
+      "text_ru": "1. Выберите банкира. Он отвечает за очки банка и карточки гонок. Банкир также может играть, но должен хранить свои очки отдельно от банка. 2. Каждый игрок получает 5 жетонов по 50 и 5 жетонов по 10 — всего 300 очков. Остальные жетоны образуют банк. 3. Перемешайте карты пилотов и положите их рубашкой вверх в предназначенное место в центре поля. 4. Перемешайте карты автомобилей и положите их рубашкой вверх в центре поля. 5. Положите кубики рядом с полем. 6. Каждый выбирает команду: поставьте её машинку на «СТАРТ», соответствующий шлем пилота — на стартовую линию трассы Monopoly Grand Prix, а планшет команды положите перед собой лицевой стороной вверх. 7. Все бросают красный кубик. Игрок с наибольшим результатом первым выбирает карту пит-стопа и кладёт её лицевой стороной вверх на красно-жёлтую область своего планшета. Затем карту выбирает игрок слева и так далее, пока карта не будет у каждого. 8. Неиспользуемые машинки, шлемы, планшеты команд и карты пит-стопа уберите обратно в коробку.",
+      "keywords": [
+        "spielvorbereitung",
+        "bankhalter",
+        "300 punkte",
+        "подготовка",
+        "банкир",
+        "300 очков"
+      ],
+      "id": "rules-005",
+      "category": "rules",
+      "explanation_ru": "Выберите банкира, выдайте каждому 300 очков, подготовьте колоды, выберите команды, затем по очереди выберите карты пит-стопа.",
+      "source": "IMG_9218.jpg",
+      "search_text": "spielvorbereitung подготовка к игре 1 ein spieler wird zum bankhalter ernannt er kümmert sich um die punkte der bank und rennkarten der bankhalter darf selbst mitspielen aber er muss seine punkte vom punktevorrat der bank getrennt halten 2 jeder spieler erhält zu beginn des spiels 5 50 und 5 10 gesamt 300 punkte die restlichen punkte chips werden als bank auf einem stapel aufbewahrt 3 mischt die fahrerkarten und legt sie verdeckt auf den dafür vorgesehenen platz in der mitte des spielplans 4 mischt die autokarten und legt sie verdeckt auf den dafür vorgesehenen platz in der mitte des spielplans 5 legt die würfel neben den spielplan 6 jeder spieler wählt ein team stellt die auto spielfigur eures teams auf los setzt den dazugehörigen fahrerhelm auf die startlinie der monopoly grand prix rennstrecke legt das jeweilige teamtableau aufgedeckt vor euch hin 7 alle spieler würfeln mit dem roten würfel der spieler mit der höchsten augenzahl wählt eine der boxenstopp karten und legt sie aufgedeckt auf den rot gelb gestreiften bereich seines teamtableaus dann wählt die person links von ihm eine karte aus usw bis jeder eine boxenstopp karte hat 8 legt nicht benötigte auto spielfiguren fahrerhelme teamtableaus und boxenstopp karten wieder in die schachtel 1 выберите банкира он отвечает за очки банка и карточки гонок банкир также может играть но должен хранить свои очки отдельно от банка 2 каждый игрок получает 5 жетонов по 50 и 5 жетонов по 10 всего 300 очков остальные жетоны образуют банк 3 перемешайте карты пилотов и положите их рубашкой вверх в предназначенное место в центре поля 4 перемешайте карты автомобилей и положите их рубашкой вверх в центре поля 5 положите кубики рядом с полем 6 каждый выбирает команду поставьте ее машинку на старт соответствующий шлем пилота на стартовую линию трассы monopoly grand prix а планшет команды положите перед собой лицевой стороной вверх 7 все бросают красный кубик игрок с наибольшим результатом первым выбирает карту пит стопа и кладет ее лицевой стороной вверх на красно желтую область своего планшета затем карту выбирает игрок слева и так далее пока карта не будет у каждого 8 неиспользуемые машинки шлемы планшеты команд и карты пит стопа уберите обратно в коробку spielvorbereitung bankhalter 300 punkte подготовка банкир 300 очков"
+    },
+    {
+      "title_de": "Rennen ohne Besitzer",
+      "text_de": "Landest du auf einem Rennfeld ohne Besitzer (d. h. keiner hat die Führung übernommen), kannst du den Betrag auf dem Feld an die Bank zahlen und die Führung in dem Rennen übernehmen! Du erhältst dann die Rennkarte von der Bank. Kannst (oder willst) du diese Rennkarte nicht kaufen, kann jeder Gegner 30 Punkte an die Bank zahlen und um die Führung im Rennen kämpfen. Diese Spieler würfeln jeweils mit dem roten Würfel und derjenige mit der höchsten Augenzahl erhält die Rennkarte.",
+      "title_ru": "Гонка без владельца",
+      "text_ru": "Если вы остановились на гоночной клетке, в которой ещё никто не лидирует, можете заплатить банку указанную на поле сумму и получить лидерство в этой гонке. Возьмите соответствующую карту гонки у банка. Если вы не можете или не хотите покупать её, любой соперник может заплатить банку 30 очков и побороться за лидерство. Все претенденты бросают красный кубик; карту получает игрок с наибольшим результатом.",
+      "keywords": [
+        "rennen ohne besitzer",
+        "rennkarte",
+        "30 punkte",
+        "свободная гонка",
+        "карта гонки"
+      ],
+      "id": "rules-006",
+      "category": "rules",
+      "explanation_ru": "Свободную гонку можно купить. При отказе другие игроки могут заплатить по 30 очков и разыграть карту красным кубиком.",
+      "source": "IMG_9216.jpg",
+      "search_text": "rennen ohne besitzer гонка без владельца landest du auf einem rennfeld ohne besitzer d h keiner hat die führung übernommen kannst du den betrag auf dem feld an die bank zahlen und die führung in dem rennen übernehmen du erhältst dann die rennkarte von der bank kannst oder willst du diese rennkarte nicht kaufen kann jeder gegner 30 punkte an die bank zahlen und um die führung im rennen kämpfen diese spieler würfeln jeweils mit dem roten würfel und derjenige mit der höchsten augenzahl erhält die rennkarte если вы остановились на гоночной клетке в которой еще никто не лидирует можете заплатить банку указанную на поле сумму и получить лидерство в этой гонке возьмите соответствующую карту гонки у банка если вы не можете или не хотите покупать ее любой соперник может заплатить банку 30 очков и побороться за лидерство все претенденты бросают красный кубик карту получает игрок с наибольшим результатом rennen ohne besitzer rennkarte 30 punkte свободная гонка карта гонки"
+    },
+    {
+      "title_de": "Sammle Farbgruppen!",
+      "text_de": "Hast du in allen Rennen einer Farbgruppe die Führung übernommen, erhältst du die doppelte Duellgebühr für diese Rennen. Zudem kann kein Gegner dir diese Rennkarten wegnehmen – auch wenn sie dich in einem Rennduell besiegen!",
+      "title_ru": "Собирайте цветовые группы",
+      "text_ru": "Если вы контролируете все гонки одной цветовой группы, плата за дуэль на этих гонках удваивается. Кроме того, соперники больше не могут отобрать у вас эти карты гонок, даже победив вас в гоночной дуэли.",
+      "keywords": [
+        "farbgruppe",
+        "duellgebühr",
+        "цветовая группа",
+        "двойная плата"
+      ],
+      "id": "rules-007",
+      "category": "rules",
+      "explanation_ru": "Полная группа удваивает плату за дуэль и защищает карты от потери в дуэлях.",
+      "source": "IMG_9216.jpg",
+      "search_text": "sammle farbgruppen собирайте цветовые группы hast du in allen rennen einer farbgruppe die führung übernommen erhältst du die doppelte duellgebühr für diese rennen zudem kann kein gegner dir diese rennkarten wegnehmen auch wenn sie dich in einem rennduell besiegen если вы контролируете все гонки одной цветовой группы плата за дуэль на этих гонках удваивается кроме того соперники больше не могут отобрать у вас эти карты гонок даже победив вас в гоночной дуэли farbgruppe duellgebühr цветовая группа двойная плата"
+    },
+    {
+      "title_de": "Rennen mit Besitzer / Rennduell",
+      "text_de": "Landest du auf einem Rennfeld im Besitz eines Gegners (d. h. er hat die Führung übernommen), musst du mit ihm um die Führung kämpfen! Du nimmst den roten Würfel. Der Führende nimmt den weißen F1®-Würfel. Ihr würfelt beide gleichzeitig. Fügt etwaige Bonuspunkte durch Autoteile auf euren Teamtableaus hinzu. Die höhere Würfzahl gewinnt! Würfelt der Führende F1®, gewinnt er sofort. Gewinnst du, musst du nichts an den Führenden bezahlen und erhältst die Rennkarte von ihm (sofern sie nicht Teil einer kompletten Farbgruppe ist). Gewinnt der Führende, musst du ihm die auf der Rückseite der Rennkarte angegebene Duellgebühr zahlen. Duelliert ihr euch im Montréal- oder Singapur-Rennen, würfelt der Führende mit dem F1®-Würfel und mit dem roten Würfel, sollte er die komplette Farbgruppe haben – und du musst das 10-Fache der Gesamtsumme in Punkten zahlen. Bei einem Unentschieden gewinnt der Führende und du musst die Duellgebühr zahlen.",
+      "title_ru": "Гоночная дуэль за лидерство",
+      "text_ru": "Если вы остановились на гонке, которой владеет соперник, вы обязаны сразиться с ним за лидерство. Атакующий бросает красный кубик, действующий лидер — белый кубик F1. Бросок производится одновременно; затем прибавляются бонусы от деталей автомобиля на планшетах команд. Побеждает больший результат. Если лидер выбросил F1, он выигрывает автоматически. Если побеждает атакующий, он ничего не платит и получает карту гонки, если она не входит в уже собранную полную цветовую группу владельца. Если побеждает лидер, атакующий платит ему указанную на обратной стороне карты плату за дуэль. Для Монреаля и Сингапура при наличии полной цветовой группы лидер бросает одновременно белый F1-кубик и красный кубик, а проигравший платит в 10 раз больше суммы результатов кубиков. При ничьей выигрывает лидер.",
+      "keywords": [
+        "rennduell",
+        "duellgebühr",
+        "führende",
+        "красный кубик",
+        "дуэль",
+        "лидерство"
+      ],
+      "id": "rules-008",
+      "category": "rules",
+      "explanation_ru": "Атакующий бросает красный кубик, владелец — белый F1-кубик. F1 у владельца — автоматическая победа; ничья тоже в пользу владельца.",
+      "source": "IMG_9216.jpg",
+      "search_text": "rennen mit besitzer rennduell гоночная дуэль за лидерство landest du auf einem rennfeld im besitz eines gegners d h er hat die führung übernommen musst du mit ihm um die führung kämpfen du nimmst den roten würfel der führende nimmt den weißen f1 würfel ihr würfelt beide gleichzeitig fügt etwaige bonuspunkte durch autoteile auf euren teamtableaus hinzu die höhere würfzahl gewinnt würfelt der führende f1 gewinnt er sofort gewinnst du musst du nichts an den führenden bezahlen und erhältst die rennkarte von ihm sofern sie nicht teil einer kompletten farbgruppe ist gewinnt der führende musst du ihm die auf der rückseite der rennkarte angegebene duellgebühr zahlen duelliert ihr euch im montréal oder singapur rennen würfelt der führende mit dem f1 würfel und mit dem roten würfel sollte er die komplette farbgruppe haben und du musst das 10 fache der gesamtsumme in punkten zahlen bei einem unentschieden gewinnt der führende und du musst die duellgebühr zahlen если вы остановились на гонке которой владеет соперник вы обязаны сразиться с ним за лидерство атакующий бросает красный кубик действующий лидер белый кубик f1 бросок производится одновременно затем прибавляются бонусы от деталей автомобиля на планшетах команд побеждает больший результат если лидер выбросил f1 он выигрывает автоматически если побеждает атакующий он ничего не платит и получает карту гонки если она не входит в уже собранную полную цветовую группу владельца если побеждает лидер атакующий платит ему указанную на обратной стороне карты плату за дуэль для монреаля и сингапура при наличии полной цветовой группы лидер бросает одновременно белый f1 кубик и красный кубик а проигравший платит в 10 раз больше суммы результатов кубиков при ничьей выигрывает лидер rennduell duellgebühr führende красный кубик дуэль лидерство"
+    },
+    {
+      "title_de": "LOS",
+      "text_de": "Erreichst du das „LOS“-Feld, hältst du hier an, auch wenn du noch Würfelpunkte übrig hast. Dann: 1. Sammle 20 Punkte von der Bank ein. 2. Rücke im Monopoly Grand Prix™ vor.",
+      "title_ru": "СТАРТ",
+      "text_ru": "Когда вы достигаете клетки «СТАРТ», обязательно остановитесь на ней, даже если по броску должны были пройти дальше. Получите 20 очков из банка и затем продвиньтесь по трассе Monopoly Grand Prix.",
+      "keywords": [
+        "los",
+        "20 punkte",
+        "start",
+        "старт",
+        "20 очков"
+      ],
+      "id": "rules-009",
+      "category": "rules",
+      "explanation_ru": "На СТАРТЕ нужно остановиться, получить 20 очков и продвинуться по Monopoly Grand Prix.",
+      "source": "IMG_9244.jpg",
+      "search_text": "los старт erreichst du das los feld hältst du hier an auch wenn du noch würfelpunkte übrig hast dann 1 sammle 20 punkte von der bank ein 2 rücke im monopoly grand prix vor когда вы достигаете клетки старт обязательно остановитесь на ней даже если по броску должны были пройти дальше получите 20 очков из банка и затем продвиньтесь по трассе monopoly grand prix los 20 punkte start старт 20 очков"
+    },
+    {
+      "title_de": "Auto und Fahrer",
+      "text_de": "Ziehe die oberste Karte vom entsprechenden Stapel und führe die Anweisung aus. Besagt die Karte, dass du sie behalten sollst, bis du sie benutzen möchtest, so kannst du das tun. Ansonsten lies sie laut vor und führe die Anweisung sofort aus. Danach wird die Karte unter den entsprechenden Stapel zurückgesteckt.",
+      "title_ru": "Автомобиль и пилот",
+      "text_ru": "Возьмите верхнюю карту из соответствующей колоды и выполните её указание. Если на карте сказано сохранить её до момента использования, оставьте её у себя. В остальных случаях прочитайте карту вслух, сразу выполните действие и положите карту под низ соответствующей колоды.",
+      "keywords": [
+        "auto",
+        "fahrer",
+        "karte ziehen",
+        "автомобиль",
+        "пилот",
+        "взять карту"
+      ],
+      "id": "rules-010",
+      "category": "rules",
+      "explanation_ru": "Возьмите верхнюю карту соответствующей колоды и выполните её текст; сохраняемые карты можно оставить до использования.",
+      "source": "IMG_9244.jpg",
+      "search_text": "auto und fahrer автомобиль и пилот ziehe die oberste karte vom entsprechenden stapel und führe die anweisung aus besagt die karte dass du sie behalten sollst bis du sie benutzen möchtest so kannst du das tun ansonsten lies sie laut vor und führe die anweisung sofort aus danach wird die karte unter den entsprechenden stapel zurückgesteckt возьмите верхнюю карту из соответствующей колоды и выполните ее указание если на карте сказано сохранить ее до момента использования оставьте ее у себя в остальных случаях прочитайте карту вслух сразу выполните действие и положите карту под низ соответствующей колоды auto fahrer karte ziehen автомобиль пилот взять карту"
+    },
+    {
+      "title_de": "Autoteile",
+      "text_de": "Der Auto-Kartenstapel enthält Autoteile. Ziehst du ein Autoteil vom Auto-Kartenstapel, leg es auf eines der Felder auf deinem Teamtableau. Du kannst Teile nur dann von einem Feld entfernen, wenn du auf „Frei Parken“ landest. Ziehst du ein Autoteil und beide Felder sind bereits belegt, leg das neue Autoteil ab oder ersetze eines deiner Autoteile durch das neue. Du kannst zwei gleiche Autoteile auf deinem Teamtableau haben. Dann verdoppelt sich der Effekt der Karte. Leg abgelegte Autoteile zurück unter den Auto-Kartenstapel.",
+      "title_ru": "Детали автомобиля",
+      "text_ru": "В колоде автомобилей встречаются детали машины. Получив такую карту, положите её в один из специальных слотов на своём планшете команды. Снять установленную деталь можно только после попадания на «Бесплатную парковку». Если оба слота уже заняты, новую деталь можно сбросить либо заменить ей одну из установленных. Разрешается иметь две одинаковые детали — их эффект в таком случае удваивается. Сброшенные детали кладутся под низ колоды автомобилей.",
+      "keywords": [
+        "autoteile",
+        "teamtableau",
+        "bonus",
+        "детали автомобиля",
+        "бонус"
+      ],
+      "id": "rules-011",
+      "category": "rules",
+      "explanation_ru": "На планшете два слота деталей; одинаковые детали можно иметь дважды, их эффект удваивается.",
+      "source": "IMG_9244.jpg",
+      "search_text": "autoteile детали автомобиля der auto kartenstapel enthält autoteile ziehst du ein autoteil vom auto kartenstapel leg es auf eines der felder auf deinem teamtableau du kannst teile nur dann von einem feld entfernen wenn du auf frei parken landest ziehst du ein autoteil und beide felder sind bereits belegt leg das neue autoteil ab oder ersetze eines deiner autoteile durch das neue du kannst zwei gleiche autoteile auf deinem teamtableau haben dann verdoppelt sich der effekt der karte leg abgelegte autoteile zurück unter den auto kartenstapel в колоде автомобилей встречаются детали машины получив такую карту положите ее в один из специальных слотов на своем планшете команды снять установленную деталь можно только после попадания на бесплатную парковку если оба слота уже заняты новую деталь можно сбросить либо заменить ей одну из установленных разрешается иметь две одинаковые детали их эффект в таком случае удваивается сброшенные детали кладутся под низ колоды автомобилей autoteile teamtableau bonus детали автомобиля бонус"
+    },
+    {
+      "title_de": "Frei Parken",
+      "text_de": "Gib deinem technischen Direktor die Chance, sein Können zu zeigen! Landest du hier, kannst du alle unnötigen Teile von deinem Teamtableau entfernen. Lege sie zurück unter den Auto-Kartenstapel.",
+      "title_ru": "Бесплатная парковка",
+      "text_ru": "Если вы попали сюда, можете снять с планшета команды любые ненужные детали автомобиля. Положите их под низ колоды автомобилей.",
+      "keywords": [
+        "frei parken",
+        "autoteile",
+        "бесплатная парковка"
+      ],
+      "id": "rules-012",
+      "category": "rules",
+      "explanation_ru": "Можно снять ненужные детали и вернуть их под низ колоды Auto.",
+      "source": "IMG_9244.jpg",
+      "search_text": "frei parken бесплатная парковка gib deinem technischen direktor die chance sein können zu zeigen landest du hier kannst du alle unnötigen teile von deinem teamtableau entfernen lege sie zurück unter den auto kartenstapel если вы попали сюда можете снять с планшета команды любые ненужные детали автомобиля положите их под низ колоды автомобилей frei parken autoteile бесплатная парковка"
+    },
+    {
+      "title_de": "Nur zu Besuch",
+      "text_de": "Keine Panik. Landest du hier, stelle deine Spielfigur einfach auf den „Nur zu Besuch“-Bereich.",
+      "title_ru": "Просто в гостях",
+      "text_ru": "Если вы обычным ходом попали на эту клетку, просто поставьте свою машинку в область «Просто в гостях».",
+      "keywords": [
+        "nur zu besuch",
+        "gefängnis",
+        "просто в гостях",
+        "тюрьма"
+      ],
+      "id": "rules-013",
+      "category": "rules",
+      "explanation_ru": "Обычное попадание на тюремную клетку не считается заключением.",
+      "source": "IMG_9244.jpg",
+      "search_text": "nur zu besuch просто в гостях keine panik landest du hier stelle deine spielfigur einfach auf den nur zu besuch bereich если вы обычным ходом попали на эту клетку просто поставьте свою машинку в область просто в гостях nur zu besuch gefängnis просто в гостях тюрьма"
+    },
+    {
+      "title_de": "Gehe in das Gefängnis",
+      "text_de": "Die Rennkommissare haben eine harte Strafe ausgesprochen! Stelle deine Auto-Spielfigur sofort in das Gefängnis! Du erhältst weder 20 Punkte für das Ziehen über LOS noch rückst du im Monopoly Grand Prix™ vor. Dein Zug ist danach beendet. Bist du im Gefängnis, darfst du trotzdem an Rennduellen gegen deine Gegner teilnehmen, Duellgebühren kassieren und mit anderen Spielern tauschen bzw. handeln.",
+      "title_ru": "Отправляйтесь в тюрьму",
+      "text_ru": "Немедленно переместите машинку в тюрьму. За прохождение «СТАРТА» вы не получаете 20 очков и не продвигаетесь по трассе Monopoly Grand Prix. Ход сразу заканчивается. Находясь в тюрьме, вы по-прежнему можете участвовать в гоночных дуэлях, получать плату за дуэли и торговать с другими игроками.",
+      "keywords": [
+        "gehe in das gefängnis",
+        "gefängnis",
+        "тюрьма"
+      ],
+      "id": "rules-014",
+      "category": "rules",
+      "explanation_ru": "Немедленно переместитесь в тюрьму без 20 очков и без продвижения по Grand Prix. Торговля и получение платы за дуэли остаются доступны.",
+      "source": "IMG_9244.jpg",
+      "search_text": "gehe in das gefängnis отправляйтесь в тюрьму die rennkommissare haben eine harte strafe ausgesprochen stelle deine auto spielfigur sofort in das gefängnis du erhältst weder 20 punkte für das ziehen über los noch rückst du im monopoly grand prix vor dein zug ist danach beendet bist du im gefängnis darfst du trotzdem an rennduellen gegen deine gegner teilnehmen duellgebühren kassieren und mit anderen spielern tauschen bzw handeln немедленно переместите машинку в тюрьму за прохождение старта вы не получаете 20 очков и не продвигаетесь по трассе monopoly grand prix ход сразу заканчивается находясь в тюрьме вы по прежнему можете участвовать в гоночных дуэлях получать плату за дуэли и торговать с другими игроками gehe in das gefängnis gefängnis тюрьма"
+    },
+    {
+      "title_de": "Wie komme ich aus dem Gefängnis frei?",
+      "text_de": "Dafür gibt’s 3 Möglichkeiten: 1. Zahle am Anfang deines nächsten Zugs 10 Punkte an die Bank. Danach würfelst du und machst einen normalen Zug. 2. Spiele am Anfang deines nächsten Zugs eine „Du kommst aus dem Gefängnis frei“-Karte aus, sofern du eine hast (oder kaufe eine von einem Gegner). Leg die Karte zurück unter den Fahrer-Kartenstapel, würfle und ziehe. 3. Würfle einen Pasch in deinem nächsten Zug. Dann bist du sofort frei! Mit diesem Würfelwurf ziehst du direkt aus dem Gefängnis heraus und dein Spielzug ist beendet. Dies darfst du 3 Runden lang versuchen. Wirfst du auch in der dritten Runde keinen Pasch, kaufst du dich mit 10 Punkten frei und ziehst mit deinem letzten Wurf aus dem Gefängnis heraus.",
+      "title_ru": "Как выйти из тюрьмы",
+      "text_ru": "Есть три способа. 1. В начале следующего хода заплатить банку 10 очков, после чего бросить кубики и сделать обычный ход. 2. В начале хода использовать карту «Выйти из тюрьмы бесплатно», если она у вас есть, либо купить такую карту у соперника. После использования положите её под низ колоды пилотов, бросьте кубики и двигайтесь. 3. Попытаться выбросить дубль. При дубле вы сразу освобождаетесь и этим же броском выходите из тюрьмы, после чего ход заканчивается. Пытаться можно три хода. Если и на третий раз дубль не выпал, заплатите 10 очков и выйдите из тюрьмы, используя результат последнего броска.",
+      "keywords": [
+        "gefängnis frei",
+        "pasch",
+        "10 punkte",
+        "выйти из тюрьмы",
+        "дубль"
+      ],
+      "id": "rules-015",
+      "category": "rules",
+      "explanation_ru": "Заплатить 10 очков, использовать карту выхода или выбросить дубль. После трёх неудачных попыток нужно заплатить 10.",
+      "source": "IMG_9244.jpg",
+      "search_text": "wie komme ich aus dem gefängnis frei как выйти из тюрьмы dafür gibt s 3 möglichkeiten 1 zahle am anfang deines nächsten zugs 10 punkte an die bank danach würfelst du und machst einen normalen zug 2 spiele am anfang deines nächsten zugs eine du kommst aus dem gefängnis frei karte aus sofern du eine hast oder kaufe eine von einem gegner leg die karte zurück unter den fahrer kartenstapel würfle und ziehe 3 würfle einen pasch in deinem nächsten zug dann bist du sofort frei mit diesem würfelwurf ziehst du direkt aus dem gefängnis heraus und dein spielzug ist beendet dies darfst du 3 runden lang versuchen wirfst du auch in der dritten runde keinen pasch kaufst du dich mit 10 punkten frei und ziehst mit deinem letzten wurf aus dem gefängnis heraus есть три способа 1 в начале следующего хода заплатить банку 10 очков после чего бросить кубики и сделать обычный ход 2 в начале хода использовать карту выйти из тюрьмы бесплатно если она у вас есть либо купить такую карту у соперника после использования положите ее под низ колоды пилотов бросьте кубики и двигайтесь 3 попытаться выбросить дубль при дубле вы сразу освобождаетесь и этим же броском выходите из тюрьмы после чего ход заканчивается пытаться можно три хода если и на третий раз дубль не выпал заплатите 10 очков и выйдите из тюрьмы используя результат последнего броска gefängnis frei pasch 10 punkte выйти из тюрьмы дубль"
+    },
+    {
+      "title_de": "Durchfahrts- und Zeitstrafe",
+      "text_de": "Zahl der Bank den Betrag, der auf dem Feld angegeben ist.",
+      "title_ru": "Штраф за проезд через пит-лейн / временной штраф",
+      "text_ru": "Заплатите банку сумму, указанную на клетке.",
+      "keywords": [
+        "durchfahrtsstrafe",
+        "zeitstrafe",
+        "штраф",
+        "временной штраф"
+      ],
+      "id": "rules-016",
+      "category": "rules",
+      "explanation_ru": "Заплатите банку сумму, указанную на клетке.",
+      "source": "IMG_9244.jpg",
+      "search_text": "durchfahrts und zeitstrafe штраф за проезд через пит лейн временной штраф zahl der bank den betrag der auf dem feld angegeben ist заплатите банку сумму указанную на клетке durchfahrtsstrafe zeitstrafe штраф временной штраф"
+    },
+    {
+      "title_de": "Überholen",
+      "text_de": "Landest du auf einem „Überholen“-Feld, darfst du auf ein beliebiges Feld zwischen diesem und dem nächsten „Überholen“-Feld ziehen. Befolg die Regeln des Feldes, auf dem du landest. Damit ist dein Spielzug beendet. Möchtest du nicht vorrücken, dann bleibe auf deinem ursprünglichen Feld stehen. Dein Zug ist damit beendet.",
+      "title_ru": "Обгон",
+      "text_ru": "Если вы попали на клетку «Обгон», можете переместиться на любую клетку между текущей клеткой «Обгон» и следующей такой клеткой. Выполните действие клетки, на которой остановились, после чего ход заканчивается. Можно отказаться от обгона и остаться на исходной клетке — в этом случае ход также заканчивается.",
+      "keywords": [
+        "überholen",
+        "обгон"
+      ],
+      "id": "rules-017",
+      "category": "rules",
+      "explanation_ru": "Можно переместиться на любую клетку до следующей клетки «Обгон» и выполнить её действие.",
+      "source": "IMG_9244.jpg",
+      "search_text": "überholen обгон landest du auf einem überholen feld darfst du auf ein beliebiges feld zwischen diesem und dem nächsten überholen feld ziehen befolg die regeln des feldes auf dem du landest damit ist dein spielzug beendet möchtest du nicht vorrücken dann bleibe auf deinem ursprünglichen feld stehen dein zug ist damit beendet если вы попали на клетку обгон можете переместиться на любую клетку между текущей клеткой обгон и следующей такой клеткой выполните действие клетки на которой остановились после чего ход заканчивается можно отказаться от обгона и остаться на исходной клетке в этом случае ход также заканчивается überholen обгон"
+    },
+    {
+      "title_de": "Monopoly Grand Prix",
+      "text_de": "Erreichst du das „LOS“-Feld, musst du dort anhalten, auch wenn du noch Würfelpunkte übrig hast. Sammle 20 Punkte von der Bank ein und rücke im Monopoly Grand Prix™ wie folgt vor: 1. Wirf beide Würfel. Rücke deinen Fahrerhelm um diese Anzahl an Feldern auf der Monopoly Grand Prix™-Rennstrecke vor. Achte auf die verschiedenen Streckenabschnitte und nutze etwaige Autoteile in deinem Besitz. Hinweis: Willst du deine Boxenstopp-Karte einsetzen, musst du dies tun, bevor du würfelst. Wirfst du F1®, rücke mit deinem Fahrerhelm auf das nächste F1®-Feld auf der Monopoly Grand Prix™-Rennstrecke und dann um die auf dem roten Würfel gezeigte Anzahl von Feldern vor. 2. Nun ist dein Zug beendet.",
+      "title_ru": "Monopoly Grand Prix",
+      "text_ru": "Достигнув клетки «СТАРТ», остановитесь на ней, получите 20 очков и выполните заезд по центральной трассе Monopoly Grand Prix. Бросьте оба кубика и передвиньте шлем пилота на сумму выпавших значений, учитывая особенности участков трассы и бонусы деталей автомобиля. Если хотите применить карту пит-стопа, объявите об этом до броска. Если на белом кубике выпал F1, сначала переместите шлем на следующую клетку F1 на трассе, а затем дополнительно на количество клеток, выпавшее на красном кубике. После этого ваш ход заканчивается.",
+      "keywords": [
+        "monopoly grand prix",
+        "fahrerhelm",
+        "F1 feld",
+        "шлем",
+        "гран-при"
+      ],
+      "id": "rules-018",
+      "category": "rules",
+      "explanation_ru": "При достижении СТАРТА бросьте оба кубика и двигайте шлем. Если выпал F1, сначала перейдите на следующую клетку F1, затем добавьте результат красного кубика.",
+      "source": "IMG_9245.jpg",
+      "search_text": "monopoly grand prix monopoly grand prix erreichst du das los feld musst du dort anhalten auch wenn du noch würfelpunkte übrig hast sammle 20 punkte von der bank ein und rücke im monopoly grand prix wie folgt vor 1 wirf beide würfel rücke deinen fahrerhelm um diese anzahl an feldern auf der monopoly grand prix rennstrecke vor achte auf die verschiedenen streckenabschnitte und nutze etwaige autoteile in deinem besitz hinweis willst du deine boxenstopp karte einsetzen musst du dies tun bevor du würfelst wirfst du f1 rücke mit deinem fahrerhelm auf das nächste f1 feld auf der monopoly grand prix rennstrecke und dann um die auf dem roten würfel gezeigte anzahl von feldern vor 2 nun ist dein zug beendet достигнув клетки старт остановитесь на ней получите 20 очков и выполните заезд по центральной трассе monopoly grand prix бросьте оба кубика и передвиньте шлем пилота на сумму выпавших значений учитывая особенности участков трассы и бонусы деталей автомобиля если хотите применить карту пит стопа объявите об этом до броска если на белом кубике выпал f1 сначала переместите шлем на следующую клетку f1 на трассе а затем дополнительно на количество клеток выпавшее на красном кубике после этого ваш ход заканчивается monopoly grand prix fahrerhelm f1 feld шлем гран при"
+    },
+    {
+      "title_de": "Boxenstopp-Karten",
+      "text_de": "Einmal pro Spiel kannst du deine Boxenstopp-Karte beim Monopoly Grand Prix™ einsetzen. Kündige an, dass du sie benutzen wirst, bevor du für deinen Zug würfelst. Dann addiere (je nach gewürfelter Augenzahl) die auf deiner Boxenstopp-Karte angegebene Anzahl an Feldern zu deinem Wurf oder subtrahiere sie.",
+      "title_ru": "Карты пит-стопа",
+      "text_ru": "Один раз за игру вы можете использовать свою карту пит-стопа во время Monopoly Grand Prix. Объявить её использование нужно до броска кубиков. После броска прибавьте или вычтите из своего перемещения указанное на карте количество клеток в соответствии с выпавшим результатом.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп"
+      ],
+      "id": "rules-019",
+      "category": "rules",
+      "explanation_ru": "Используются один раз за игру на Grand Prix; объявляются до броска и модифицируют движение.",
+      "source": "IMG_9245.jpg",
+      "search_text": "boxenstopp karten карты пит стопа einmal pro spiel kannst du deine boxenstopp karte beim monopoly grand prix einsetzen kündige an dass du sie benutzen wirst bevor du für deinen zug würfelst dann addiere je nach gewürfelter augenzahl die auf deiner boxenstopp karte angegebene anzahl an feldern zu deinem wurf oder subtrahiere sie один раз за игру вы можете использовать свою карту пит стопа во время monopoly grand prix объявить ее использование нужно до броска кубиков после броска прибавьте или вычтите из своего перемещения указанное на карте количество клеток в соответствии с выпавшим результатом boxenstopp pit stop пит стоп"
+    },
+    {
+      "title_de": "Streckenabschnitte und Autoteile",
+      "text_de": "Gelber Abschnitt: Kurze Geraden, verbunden über eine Haarnadelkurve. Nutzt du MEDIUM-REIFEN, addiere 4 zu deinem Zug. Blauer Abschnitt: Nasser Streckenabschnitt – du musst dort anhalten. Dein Zug ist zu Ende, auch wenn du noch Würfelpunkte übrig hast. Nutzt du REGENREIFEN, musst du nicht im blauen Abschnitt anhalten. Weißer Abschnitt: Die längsten Geraden – mit hohen Temperaturen und unebenem Belag. Nutzt du HARTE REIFEN, addiere 4 zu deinem Zug. Roter Abschnitt: Eine Folge enger Schikanen. Nutzt du WEICHE REIFEN, addiere 4 zu deinem Zug.",
+      "title_ru": "Участки трассы и шины",
+      "text_ru": "Жёлтый участок: короткие прямые с шпилькой. С шинами Medium добавьте 4 к перемещению. Синий участок: мокрая трасса — на ней нужно остановиться, даже если остались неиспользованные очки движения; с дождевыми шинами останавливаться не нужно. Белый участок: самые длинные прямые, высокая температура и неровное покрытие; с жёсткими шинами добавьте 4. Красный участок: последовательность тесных шикан; с мягкими шинами добавьте 4.",
+      "keywords": [
+        "medium-reifen",
+        "regenreifen",
+        "harte reifen",
+        "weiche reifen",
+        "шины",
+        "трасса"
+      ],
+      "id": "rules-020",
+      "category": "rules",
+      "explanation_ru": "Soft: красный +4; Medium: жёлтый +4; Hard: белый +4; Rain: можно не останавливаться на синем участке.",
+      "source": "IMG_9245.jpg",
+      "search_text": "streckenabschnitte und autoteile участки трассы и шины gelber abschnitt kurze geraden verbunden über eine haarnadelkurve nutzt du medium reifen addiere 4 zu deinem zug blauer abschnitt nasser streckenabschnitt du musst dort anhalten dein zug ist zu ende auch wenn du noch würfelpunkte übrig hast nutzt du regenreifen musst du nicht im blauen abschnitt anhalten weißer abschnitt die längsten geraden mit hohen temperaturen und unebenem belag nutzt du harte reifen addiere 4 zu deinem zug roter abschnitt eine folge enger schikanen nutzt du weiche reifen addiere 4 zu deinem zug желтый участок короткие прямые с шпилькой с шинами medium добавьте 4 к перемещению синий участок мокрая трасса на ней нужно остановиться даже если остались неиспользованные очки движения с дождевыми шинами останавливаться не нужно белый участок самые длинные прямые высокая температура и неровное покрытие с жесткими шинами добавьте 4 красный участок последовательность тесных шикан с мягкими шинами добавьте 4 medium reifen regenreifen harte reifen weiche reifen шины трасса"
+    },
+    {
+      "title_de": "Verhandeln & Tauschen",
+      "text_de": "Du darfst Rennkarten, Autoteile und „Du kommst aus dem Gefängnis frei“-Karten jederzeit von Gegnern kaufen, an diese verkaufen oder mit ihnen tauschen. Tausche IMMER zu deinen Gunsten, niemals aus Mitleid und leihe Gegnern keine Punkte! Schließlich willst du selbst gewinnen!",
+      "title_ru": "Сделки и обмен",
+      "text_ru": "Вы можете в любое время покупать у соперников, продавать им или обменивать карты гонок, детали автомобиля и карты «Выйти из тюрьмы бесплатно». Давать другим игрокам очки в долг нельзя.",
+      "keywords": [
+        "verhandeln",
+        "tauschen",
+        "handel",
+        "обмен",
+        "сделки"
+      ],
+      "id": "rules-021",
+      "category": "rules",
+      "explanation_ru": "Карты гонок, детали и карты выхода из тюрьмы можно покупать, продавать и обменивать. Очки в долг давать нельзя.",
+      "source": "IMG_9246.jpg",
+      "search_text": "verhandeln tauschen сделки и обмен du darfst rennkarten autoteile und du kommst aus dem gefängnis frei karten jederzeit von gegnern kaufen an diese verkaufen oder mit ihnen tauschen tausche immer zu deinen gunsten niemals aus mitleid und leihe gegnern keine punkte schließlich willst du selbst gewinnen вы можете в любое время покупать у соперников продавать им или обменивать карты гонок детали автомобиля и карты выйти из тюрьмы бесплатно давать другим игрокам очки в долг нельзя verhandeln tauschen handel обмен сделки"
+    },
+    {
+      "title_de": "Hilfe! Ich bin pleite!",
+      "text_de": "Versuche Punkte zu erhalten. Kannst du deine Punktschulden nicht bezahlen, versuche dir durch den Verkauf von Rennkarten zurück an die Bank (zum Preis auf dem Spielfeld) Punkte zu beschaffen. Oder versuche, Rennkarten, „Du kommst aus dem Gefängnis frei“-Karten und/oder Autoteile zu einem vereinbarten Preis an deine Gegner zu verkaufen. Hast du immer noch Schulden, ist die Saison für dich vorbei und du scheidest aus dem Spiel aus!",
+      "title_ru": "Банкротство",
+      "text_ru": "Если вы не можете выплатить долг, постарайтесь получить очки: продайте карты гонок обратно банку по цене соответствующей клетки либо договоритесь с другими игроками о продаже им карт гонок, карт «Выйти из тюрьмы бесплатно» и/или деталей автомобиля. Если после этого долг всё ещё невозможно погасить, вы выбываете из игры.",
+      "keywords": [
+        "pleite",
+        "schulden",
+        "банкротство",
+        "долг"
+      ],
+      "id": "rules-022",
+      "category": "rules",
+      "explanation_ru": "Сначала продайте имущество. Если долг не погашен — игрок выбывает.",
+      "source": "IMG_9246.jpg",
+      "search_text": "hilfe ich bin pleite банкротство versuche punkte zu erhalten kannst du deine punktschulden nicht bezahlen versuche dir durch den verkauf von rennkarten zurück an die bank zum preis auf dem spielfeld punkte zu beschaffen oder versuche rennkarten du kommst aus dem gefängnis frei karten und oder autoteile zu einem vereinbarten preis an deine gegner zu verkaufen hast du immer noch schulden ist die saison für dich vorbei und du scheidest aus dem spiel aus если вы не можете выплатить долг постарайтесь получить очки продайте карты гонок обратно банку по цене соответствующей клетки либо договоритесь с другими игроками о продаже им карт гонок карт выйти из тюрьмы бесплатно и или деталей автомобиля если после этого долг все еще невозможно погасить вы выбываете из игры pleite schulden банкротство долг"
+    },
+    {
+      "title_de": "Schulden bei einem Gegner / Schulden bei der Bank",
+      "text_de": "Schulden bei einem Gegner? Gib ihm all deine Rennkarten, Autoteile und „Du kommst aus dem Gefängnis frei“-Karten. Schulden bei der Bank? 1. Gib all deine Rennkarten an die Bank zurück. 2. Alle deine Rennkarten werden sofort einzeln von der Bank versteigert. Wird eine Rennkarte versteigert, zahlen alle Spieler, die noch im Spiel sind und mitbieten wollen, 30 Punkte an die Bank. Alle mitbietenden Spieler würfeln mit dem roten Würfel. Wer den höchsten Wurf hat, erhält die Rennkarte. 3. Leg die Autoteile und deine „Du kommst aus dem Gefängnis frei“-Karten zurück unter den jeweiligen Kartenstapel.",
+      "title_ru": "Что происходит с имуществом банкрота",
+      "text_ru": "Если долг был перед другим игроком, передайте ему все свои карты гонок, детали автомобиля и карты «Выйти из тюрьмы бесплатно». Если долг был перед банком, верните все карты гонок банку. Затем каждая из них отдельно разыгрывается: желающие участвовать платят банку 30 очков и бросают красный кубик; наибольший результат получает карту. Детали автомобиля и карты выхода из тюрьмы положите под низ соответствующих колод.",
+      "keywords": [
+        "schulden",
+        "versteigerung",
+        "банк",
+        "аукцион",
+        "банкротство"
+      ],
+      "id": "rules-023",
+      "category": "rules",
+      "explanation_ru": "При долге игроку имущество переходит ему; при долге банку гонки возвращаются и разыгрываются, остальные карты уходят под низ колод.",
+      "source": "IMG_9246.jpg",
+      "search_text": "schulden bei einem gegner schulden bei der bank что происходит с имуществом банкрота schulden bei einem gegner gib ihm all deine rennkarten autoteile und du kommst aus dem gefängnis frei karten schulden bei der bank 1 gib all deine rennkarten an die bank zurück 2 alle deine rennkarten werden sofort einzeln von der bank versteigert wird eine rennkarte versteigert zahlen alle spieler die noch im spiel sind und mitbieten wollen 30 punkte an die bank alle mitbietenden spieler würfeln mit dem roten würfel wer den höchsten wurf hat erhält die rennkarte 3 leg die autoteile und deine du kommst aus dem gefängnis frei karten zurück unter den jeweiligen kartenstapel если долг был перед другим игроком передайте ему все свои карты гонок детали автомобиля и карты выйти из тюрьмы бесплатно если долг был перед банком верните все карты гонок банку затем каждая из них отдельно разыгрывается желающие участвовать платят банку 30 очков и бросают красный кубик наибольший результат получает карту детали автомобиля и карты выхода из тюрьмы положите под низ соответствующих колод schulden versteigerung банк аукцион банкротство"
+    },
+    {
+      "title_de": "Spielende",
+      "text_de": "Das Spiel endet sofort, wenn ein Spieler die Ziellinie des Monopoly Grand Prix™ überquert. Dieser Spieler gewinnt die Drivers’ Championship! Geht dann jeweils wie folgt vor: 1. Nehmt euch die auf dem Spielplanfeld angegebenen Punkte für jede eurer Rennkarten von der Bank. Für Rennen einer kompletten Farbgruppe bekommt ihr doppelte Punkte für jedes dieser Rennen! 2. Zählt jeweils diese Punkte zusammen. 3. Der Spieler mit den meisten Punkten gewinnt die Constructors’ Championship!",
+      "title_ru": "Конец игры",
+      "text_ru": "Игра немедленно заканчивается, когда один из игроков пересекает финишную черту Monopoly Grand Prix. Этот игрок выигрывает чемпионат пилотов. После этого каждый получает из банка очки за все принадлежащие ему гонки согласно стоимости их клеток; гонки из полностью собранных цветовых групп приносят удвоенное количество очков. Игрок с наибольшей итоговой суммой выигрывает чемпионат конструкторов.",
+      "keywords": [
+        "spielende",
+        "drivers championship",
+        "constructors championship",
+        "конец игры"
+      ],
+      "id": "rules-024",
+      "category": "rules",
+      "explanation_ru": "Игра заканчивается при пересечении финиша Grand Prix. Затем считаются очки за гонки, полные группы дают двойные очки.",
+      "source": "IMG_9246.jpg",
+      "search_text": "spielende конец игры das spiel endet sofort wenn ein spieler die ziellinie des monopoly grand prix überquert dieser spieler gewinnt die drivers championship geht dann jeweils wie folgt vor 1 nehmt euch die auf dem spielplanfeld angegebenen punkte für jede eurer rennkarten von der bank für rennen einer kompletten farbgruppe bekommt ihr doppelte punkte für jedes dieser rennen 2 zählt jeweils diese punkte zusammen 3 der spieler mit den meisten punkten gewinnt die constructors championship игра немедленно заканчивается когда один из игроков пересекает финишную черту monopoly grand prix этот игрок выигрывает чемпионат пилотов после этого каждый получает из банка очки за все принадлежащие ему гонки согласно стоимости их клеток гонки из полностью собранных цветовых групп приносят удвоенное количество очков игрок с наибольшей итоговой суммой выигрывает чемпионат конструкторов spielende drivers championship constructors championship конец игры"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-001",
+      "category": "team",
+      "title_de": "Atlassian Williams Racing",
+      "title_ru": "Atlassian Williams Racing",
+      "text_ru": "Если при броске для движения машины выпал F1, выберите одно из двух: передвиньтесь на число клеток, выпавшее на красном кубике, ИЛИ перебросьте оба кубика и вместо этого передвиньтесь на новый результат.",
+      "copies": 1,
+      "source": "IMG_9252.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Ziehe um die Anzahl Felder vor, die der rote Würfel zeigt, ODER würfle erneut mit beiden Würfeln und zieh stattdessen um diese Anzahl an Feldern vor.",
+      "explanation_ru": "При F1: двигайтесь на результат красного кубика или перебросьте оба кубика и двигайтесь по новому результату.",
+      "keywords": [
+        "atlassian",
+        "williams",
+        "racing",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "atlassian williams racing atlassian williams racing wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl ziehe um die anzahl felder vor die der rote würfel zeigt oder würfle erneut mit beiden würfeln und zieh stattdessen um diese anzahl an feldern vor если при броске для движения машины выпал f1 выберите одно из двух передвиньтесь на число клеток выпавшее на красном кубике или перебросьте оба кубика и вместо этого передвиньтесь на новый результат atlassian williams racing f1 способность команды"
+    },
+    {
+      "id": "team-002",
+      "category": "team",
+      "title_de": "Oracle Red Bull Racing",
+      "title_ru": "Oracle Red Bull Racing",
+      "text_ru": "Если при броске для движения машины выпал F1, получите по 10 очков от каждого соперника.",
+      "copies": 1,
+      "source": "IMG_9252.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Sammle 10 Punkte von jedem Gegner ein.",
+      "explanation_ru": "При F1: получите по 10 очков от каждого соперника.",
+      "keywords": [
+        "oracle",
+        "red",
+        "bull",
+        "racing",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "oracle red bull racing oracle red bull racing wenn du beim würfeln um dein auto zu bewegen f1 würfelst sammle 10 punkte von jedem gegner ein если при броске для движения машины выпал f1 получите по 10 очков от каждого соперника oracle red bull racing f1 способность команды"
+    },
+    {
+      "id": "team-003",
+      "category": "team",
+      "title_de": "Scuderia Ferrari HP",
+      "title_ru": "Scuderia Ferrari HP",
+      "text_ru": "Если выпал F1, выберите: получить 10 очков из банка ИЛИ взять верхнюю карту из колоды пилотов.",
+      "copies": 1,
+      "source": "IMG_9252.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Sammle 10 Punkte von der Bank ein. ODER Zieh die oberste Karte des Fahrer-Kartenstapels.",
+      "explanation_ru": "При F1: получите 10 очков из банка или возьмите верхнюю карту пилота.",
+      "keywords": [
+        "scuderia",
+        "ferrari",
+        "hp",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "scuderia ferrari hp scuderia ferrari hp wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl sammle 10 punkte von der bank ein oder zieh die oberste karte des fahrer kartenstapels если выпал f1 выберите получить 10 очков из банка или взять верхнюю карту из колоды пилотов scuderia ferrari hp f1 способность команды"
+    },
+    {
+      "id": "team-004",
+      "category": "team",
+      "title_de": "Cadillac Formula 1 Team",
+      "title_ru": "Cadillac Formula 1 Team",
+      "text_ru": "Если выпал F1, выберите: получить 10 очков из банка ИЛИ обменять одну из своих деталей автомобиля на одну деталь соперника.",
+      "copies": 1,
+      "source": "IMG_9252.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Sammle 10 Punkte von der Bank ein. ODER Tausche eines deiner Autoteile gegen eines von einem Gegner.",
+      "explanation_ru": "При F1: получите 10 очков из банка или обменяйте одну свою деталь на деталь соперника.",
+      "keywords": [
+        "cadillac",
+        "formula",
+        "1",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "cadillac formula 1 team cadillac formula 1 team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl sammle 10 punkte von der bank ein oder tausche eines deiner autoteile gegen eines von einem gegner если выпал f1 выберите получить 10 очков из банка или обменять одну из своих деталей автомобиля на одну деталь соперника cadillac formula 1 team f1 способность команды"
+    },
+    {
+      "id": "team-005",
+      "category": "team",
+      "title_de": "McLaren Formula 1 Team",
+      "title_ru": "McLaren Formula 1 Team",
+      "text_ru": "Если выпал F1, выберите: немедленно переместиться на следующую гоночную клетку ИЛИ передвинуться на количество клеток, выпавшее на красном кубике.",
+      "copies": 1,
+      "source": "IMG_9252.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Ziehe sofort zum nächsten Rennfeld. ODER Ziehe um die Anzahl Felder vor, die der rote Würfel zeigt.",
+      "explanation_ru": "При F1: переместитесь на следующую гонку или двигайтесь на результат красного кубика.",
+      "keywords": [
+        "mclaren",
+        "formula",
+        "1",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "mclaren formula 1 team mclaren formula 1 team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl ziehe sofort zum nächsten rennfeld oder ziehe um die anzahl felder vor die der rote würfel zeigt если выпал f1 выберите немедленно переместиться на следующую гоночную клетку или передвинуться на количество клеток выпавшее на красном кубике mclaren formula 1 team f1 способность команды"
+    },
+    {
+      "id": "team-006",
+      "category": "team",
+      "title_de": "Mercedes-AMG PETRONAS F1 Team",
+      "title_ru": "Mercedes-AMG PETRONAS F1 Team",
+      "text_ru": "Если выпал F1, сначала завершите текущий ход, передвинувшись на число клеток красного кубика. Затем можете снова бросить оба кубика и сделать ещё один ход. Получить таким образом ещё один дополнительный ход подряд нельзя.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Führe deinen Zug aus. Rücke so viele Felder vor, wie auf dem roten Würfel angezeigt werden. Du darfst dann beide Würfel nochmal werfen, um einen weiteren Zug zu machen. Zwei weitere Züge hintereinander sind nicht erlaubt.",
+      "explanation_ru": "При F1: завершите ход по красному кубику, затем можете бросить оба кубика ещё раз и сделать один дополнительный ход.",
+      "keywords": [
+        "mercedes-amg",
+        "petronas",
+        "f1",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "mercedes amg petronas f1 team mercedes amg petronas f1 team wenn du beim würfeln um dein auto zu bewegen f1 würfelst führe deinen zug aus rücke so viele felder vor wie auf dem roten würfel angezeigt werden du darfst dann beide würfel nochmal werfen um einen weiteren zug zu machen zwei weitere züge hintereinander sind nicht erlaubt если выпал f1 сначала завершите текущий ход передвинувшись на число клеток красного кубика затем можете снова бросить оба кубика и сделать еще один ход получить таким образом еще один дополнительный ход подряд нельзя mercedes amg petronas f1 team f1 способность команды"
+    },
+    {
+      "id": "team-007",
+      "category": "team",
+      "title_de": "Haas F1 Team",
+      "title_ru": "Haas F1 Team",
+      "text_ru": "Если выпал F1, немедленно передвиньте шлем пилота на трассе Monopoly Grand Prix на 1 клетку вперёд, после чего продолжайте обычный ход.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du darfst deinen Fahrerhelm im Monopoly Grand Prix™ sofort um ein Feld vorrücken. Fahre dann mit deinem Zug fort.",
+      "explanation_ru": "При F1: передвиньте шлем по Grand Prix на 1 клетку и продолжайте ход.",
+      "keywords": [
+        "haas",
+        "f1",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "haas f1 team haas f1 team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du darfst deinen fahrerhelm im monopoly grand prix sofort um ein feld vorrücken fahre dann mit deinem zug fort если выпал f1 немедленно передвиньте шлем пилота на трассе monopoly grand prix на 1 клетку вперед после чего продолжайте обычный ход haas f1 team f1 способность команды"
+    },
+    {
+      "id": "team-008",
+      "category": "team",
+      "title_de": "Visa Cash App Racing Bulls Formula One Team",
+      "title_ru": "Visa Cash App Racing Bulls Formula One Team",
+      "text_ru": "Если выпал F1, выберите: получить 20 очков от одного соперника ИЛИ получить по 10 очков от двух соперников.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Sammle 20 Punkte von einem Gegner ein. ODER Sammle jeweils 10 Punkte von zwei Gegnern ein.",
+      "explanation_ru": "При F1: получите 20 очков от одного соперника или по 10 очков от двух.",
+      "keywords": [
+        "visa",
+        "cash",
+        "app",
+        "racing",
+        "bulls",
+        "formula",
+        "one",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "visa cash app racing bulls formula one team visa cash app racing bulls formula one team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl sammle 20 punkte von einem gegner ein oder sammle jeweils 10 punkte von zwei gegnern ein если выпал f1 выберите получить 20 очков от одного соперника или получить по 10 очков от двух соперников visa cash app racing bulls formula one team f1 способность команды"
+    },
+    {
+      "id": "team-009",
+      "category": "team",
+      "title_de": "BWT Alpine Formula One Team",
+      "title_ru": "BWT Alpine Formula One Team",
+      "text_ru": "Если выпал F1, выберите: получить 10 очков из банка ИЛИ взять верхнюю карту из колоды автомобилей.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du hast die Wahl: Sammle 10 Punkte von der Bank ein. ODER Zieh die oberste Karte des Auto-Kartenstapels.",
+      "explanation_ru": "При F1: получите 10 очков из банка или возьмите верхнюю карту Auto.",
+      "keywords": [
+        "bwt",
+        "alpine",
+        "formula",
+        "one",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "bwt alpine formula one team bwt alpine formula one team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du hast die wahl sammle 10 punkte von der bank ein oder zieh die oberste karte des auto kartenstapels если выпал f1 выберите получить 10 очков из банка или взять верхнюю карту из колоды автомобилей bwt alpine formula one team f1 способность команды"
+    },
+    {
+      "id": "team-010",
+      "category": "team",
+      "title_de": "Audi Revolut F1 Team",
+      "title_ru": "Audi Revolut F1 Team",
+      "text_ru": "Если выпал F1, можете полностью проигнорировать результат броска и вместо этого переместиться на любую клетку текущей стороны игрового поля. Затем выполните действие выбранной клетки.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du darfst diesen Wurf komplett ignorieren und stattdessen auf ein beliebiges Feld auf deiner aktuellen Spielplanseite ziehen. Führe die Anweisung für dieses Feld aus.",
+      "explanation_ru": "При F1: игнорируйте бросок и переместитесь на любую клетку текущей стороны поля.",
+      "keywords": [
+        "audi",
+        "revolut",
+        "f1",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "audi revolut f1 team audi revolut f1 team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du darfst diesen wurf komplett ignorieren und stattdessen auf ein beliebiges feld auf deiner aktuellen spielplanseite ziehen führe die anweisung für dieses feld aus если выпал f1 можете полностью проигнорировать результат броска и вместо этого переместиться на любую клетку текущей стороны игрового поля затем выполните действие выбранной клетки audi revolut f1 team f1 способность команды"
+    },
+    {
+      "id": "team-011",
+      "category": "team",
+      "title_de": "Aston Martin Aramco Formula One Team",
+      "title_ru": "Aston Martin Aramco Formula One Team",
+      "text_ru": "Если выпал F1, можете добавить к своему перемещению до 3 клеток.",
+      "copies": 1,
+      "source": "IMG_9253.jpg",
+      "text_de": "Wenn du beim Würfeln, um dein Auto zu bewegen, F1 würfelst: Du darfst bis zu 3 Punkte zu deinem Zug addieren.",
+      "explanation_ru": "При F1: добавьте к движению до 3 клеток.",
+      "keywords": [
+        "aston",
+        "martin",
+        "aramco",
+        "formula",
+        "one",
+        "team",
+        "F1",
+        "способность команды"
+      ],
+      "search_text": "aston martin aramco formula one team aston martin aramco formula one team wenn du beim würfeln um dein auto zu bewegen f1 würfelst du darfst bis zu 3 punkte zu deinem zug addieren если выпал f1 можете добавить к своему перемещению до 3 клеток aston martin aramco formula one team f1 способность команды"
+    }
+  ],
+  "auto_cards": [
+    {
+      "id": "auto-001",
+      "category": "auto",
+      "subtype": "event",
+      "title_de": "Antriebseinheit",
+      "title_ru": "Силовая установка",
+      "explanation_ru": "В гоночных дуэлях уменьшайте свой результат на 1.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Die MGU-K macht Probleme, aber noch muss das Rennen nicht abgebrochen werden. SUBTRAHIERE 1 VON DEINEN WÜRFELN IN RENNDUELLEN.",
+      "text_ru": "Возникли проблемы с MGU-K, но сходить с гонки пока не придётся. В гоночных дуэлях уменьшайте результат своего броска на 1.",
+      "keywords": [
+        "antriebseinheit",
+        "силовая установка",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "antriebseinheit силовая установка die mgu k macht probleme aber noch muss das rennen nicht abgebrochen werden subtrahiere 1 von deinen würfeln in rennduellen возникли проблемы с mgu k но сходить с гонки пока не придется в гоночных дуэлях уменьшайте результат своего броска на 1 antriebseinheit силовая установка auto автомобиль"
+    },
+    {
+      "id": "auto-002",
+      "category": "auto",
+      "subtype": "event",
+      "title_de": "Seitenverkleidung",
+      "title_ru": "Боковой понтон",
+      "explanation_ru": "На Monopoly Grand Prix уменьшайте свой результат на 1.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Der Motor überhitzt wegen eines fehlerhaften Umbaus der Kühlereinlässe. SUBTRAHIERE 1 VON DEINEN WÜRFELN BEIM MONOPOLY GRAND PRIX™.",
+      "text_ru": "Двигатель перегревается из-за неудачной модификации воздухозаборников охлаждения. Во время Monopoly Grand Prix уменьшайте результат своего броска на 1.",
+      "keywords": [
+        "seitenverkleidung",
+        "боковой понтон",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "seitenverkleidung боковой понтон der motor überhitzt wegen eines fehlerhaften umbaus der kühlereinlässe subtrahiere 1 von deinen würfeln beim monopoly grand prix двигатель перегревается из за неудачной модификации воздухозаборников охлаждения во время monopoly grand prix уменьшайте результат своего броска на 1 seitenverkleidung боковой понтон auto автомобиль"
+    },
+    {
+      "id": "auto-003",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Heckflügel",
+      "title_ru": "Заднее антикрыло",
+      "explanation_ru": "В гоночных дуэлях добавляйте 2 к своему результату.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Die veränderte Flügelspitze sorgt für weniger Luftwiderstand auf den Geraden. ADDIERE 2 ZU DEINEN WÜRFELN, WENN DU DICH IN RENNEN MIT ANDEREN MISST.",
+      "text_ru": "Изменённая форма законцовки крыла уменьшает сопротивление воздуха на прямых. В гоночной дуэли добавляйте 2 к своему результату.",
+      "keywords": [
+        "heckflügel",
+        "заднее антикрыло",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "heckflügel заднее антикрыло die veränderte flügelspitze sorgt für weniger luftwiderstand auf den geraden addiere 2 zu deinen würfeln wenn du dich in rennen mit anderen misst измененная форма законцовки крыла уменьшает сопротивление воздуха на прямых в гоночной дуэли добавляйте 2 к своему результату heckflügel заднее антикрыло auto автомобиль"
+    },
+    {
+      "id": "auto-004",
+      "category": "auto",
+      "subtype": "event",
+      "title_de": "Parc Fermé-Bedingungen",
+      "title_ru": "Режим закрытого парка",
+      "explanation_ru": "Верните одну деталь под низ колоды Auto; если деталей нет, заплатите банку 30 очков.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Die Rennkommissare gestatten momentan keine Auto-Modifikationen. LEG EIN TEIL VON DEINEM TEAMTABLEAU ZURÜCK UNTER DEN AUTO-KARTENSTAPEL. Hast du keine Teile, zahle 30 Punkte an die Bank.",
+      "text_ru": "Стюарды временно запрещают любые модификации машины. Верните одну деталь со своего планшета команды под низ колоды автомобилей. Если у вас нет деталей, заплатите банку 30 очков.",
+      "keywords": [
+        "parc fermé-bedingungen",
+        "режим закрытого парка",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "parc fermé bedingungen режим закрытого парка die rennkommissare gestatten momentan keine auto modifikationen leg ein teil von deinem teamtableau zurück unter den auto kartenstapel hast du keine teile zahle 30 punkte an die bank стюарды временно запрещают любые модификации машины верните одну деталь со своего планшета команды под низ колоды автомобилей если у вас нет деталей заплатите банку 30 очков parc fermé bedingungen режим закрытого парка auto автомобиль"
+    },
+    {
+      "id": "auto-005",
+      "category": "auto",
+      "subtype": "event",
+      "title_de": "Kundenteam",
+      "title_ru": "Клиентская команда",
+      "explanation_ru": "Возьмите одну деталь у соперника; если ни у кого деталей нет, получите 30 очков из банка.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Einer der Schlüssel zum Erfolg ist, die Grenzen des Teams zu kennen. NIMM DIR EIN AUTOTEIL VON EINEM GEGNER. Ist dein Auto schon komplett ausgestattet, kannst du eines der Teile durch das neue ersetzen oder das neue Teil zurück unter den Auto-Kartenstapel legen. Hat keiner der Gegner ein Autoteil, erhältst du 30 Punkte von der Bank.",
+      "text_ru": "Один из ключей к успеху — понимать возможности своей команды. Возьмите одну деталь автомобиля у любого соперника. Если оба слота вашей машины уже заняты, можете заменить одну из своих деталей новой либо положить полученную деталь под низ колоды автомобилей. Если ни у одного соперника нет деталей, получите 30 очков из банка.",
+      "keywords": [
+        "kundenteam",
+        "клиентская команда",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "kundenteam клиентская команда einer der schlüssel zum erfolg ist die grenzen des teams zu kennen nimm dir ein autoteil von einem gegner ist dein auto schon komplett ausgestattet kannst du eines der teile durch das neue ersetzen oder das neue teil zurück unter den auto kartenstapel legen hat keiner der gegner ein autoteil erhältst du 30 punkte von der bank один из ключей к успеху понимать возможности своей команды возьмите одну деталь автомобиля у любого соперника если оба слота вашей машины уже заняты можете заменить одну из своих деталей новой либо положить полученную деталь под низ колоды автомобилей если ни у одного соперника нет деталей получите 30 очков из банка kundenteam клиентская команда auto автомобиль"
+    },
+    {
+      "id": "auto-006",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Diffusor",
+      "title_ru": "Диффузор",
+      "explanation_ru": "В гоночных дуэлях добавляйте 1 к своему результату.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Die überarbeitete Geometrie der Unterbodenklappen sorgt für maximalen Abtrieb. ADDIERE 1 ZU DEINEN WÜRFELN, WENN DU DICH IN RENNEN MIT ANDEREN MISST.",
+      "text_ru": "Переработанная геометрия элементов днища обеспечивает максимальную прижимную силу. В гоночной дуэли добавляйте 1 к своему результату.",
+      "keywords": [
+        "diffusor",
+        "диффузор",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "diffusor диффузор die überarbeitete geometrie der unterbodenklappen sorgt für maximalen abtrieb addiere 1 zu deinen würfeln wenn du dich in rennen mit anderen misst переработанная геометрия элементов днища обеспечивает максимальную прижимную силу в гоночной дуэли добавляйте 1 к своему результату diffusor диффузор auto автомобиль"
+    },
+    {
+      "id": "auto-007",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Brake-by-Wire-System",
+      "title_ru": "Система Brake-by-Wire",
+      "explanation_ru": "В гоночных дуэлях уменьшайте результат соперника на 1.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Dank der effizienteren Bremsmigration musst du in Kurven später abbremsen. SUBTRAHIERE 1 VON DEN WÜRFELN DES GEGNERS, WENN DU DICH IN RENNEN MIT ANDEREN MISST.",
+      "text_ru": "Более эффективное управление тормозным балансом позволяет тормозить позже перед поворотами. В гоночной дуэли уменьшайте результат броска соперника на 1.",
+      "keywords": [
+        "brake-by-wire-system",
+        "система brake-by-wire",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "brake by wire system система brake by wire dank der effizienteren bremsmigration musst du in kurven später abbremsen subtrahiere 1 von den würfeln des gegners wenn du dich in rennen mit anderen misst более эффективное управление тормозным балансом позволяет тормозить позже перед поворотами в гоночной дуэли уменьшайте результат броска соперника на 1 brake by wire system система brake by wire auto автомобиль"
+    },
+    {
+      "id": "auto-008",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Frontflügel",
+      "title_ru": "Переднее антикрыло",
+      "explanation_ru": "В гоночных дуэлях добавляйте 2 к своему результату.",
+      "copies": 1,
+      "source": "IMG_9239.jpg",
+      "text_de": "Neue Endplatten reduzieren durch Luftströmung verursachte Verwirbelungen. ADDIERE 2 ZU DEINEN WÜRFELN, WENN DU DICH IN RENNEN MIT ANDEREN MISST.",
+      "text_ru": "Новые торцевые пластины уменьшают завихрения воздушного потока. В гоночной дуэли добавляйте 2 к своему результату.",
+      "keywords": [
+        "frontflügel",
+        "переднее антикрыло",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "frontflügel переднее антикрыло neue endplatten reduzieren durch luftströmung verursachte verwirbelungen addiere 2 zu deinen würfeln wenn du dich in rennen mit anderen misst новые торцевые пластины уменьшают завихрения воздушного потока в гоночной дуэли добавляйте 2 к своему результату frontflügel переднее антикрыло auto автомобиль"
+    },
+    {
+      "id": "auto-009",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Weiche Reifen",
+      "title_ru": "Мягкие шины",
+      "explanation_ru": "+4 к броску, если ход начинается или заканчивается на красном участке Grand Prix.",
+      "copies": 2,
+      "source": "IMG_9240.jpg",
+      "text_de": "Fahr deine schnellste Rundenzeit, bevor die Reifen verschlissen sind! ADDIERE 4 ZU DEINEM WURF, WENN DEIN ZUG IM ROTEN ABSCHNITT DES MONOPOLY GRAND PRIX™ BEGINNT ODER ENDET.",
+      "text_ru": "Покажите лучшее время круга, пока шины ещё не износились! Добавьте 4 к своему броску, если ваш ход начинается или заканчивается на красном участке трассы Monopoly Grand Prix.",
+      "keywords": [
+        "weiche reifen",
+        "мягкие шины",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "weiche reifen мягкие шины fahr deine schnellste rundenzeit bevor die reifen verschlissen sind addiere 4 zu deinem wurf wenn dein zug im roten abschnitt des monopoly grand prix beginnt oder endet покажите лучшее время круга пока шины еще не износились добавьте 4 к своему броску если ваш ход начинается или заканчивается на красном участке трассы monopoly grand prix weiche reifen мягкие шины auto автомобиль"
+    },
+    {
+      "id": "auto-010",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Medium-Reifen",
+      "title_ru": "Шины Medium",
+      "explanation_ru": "+4 к броску, если ход начинается или заканчивается на жёлтом участке Grand Prix.",
+      "copies": 2,
+      "source": "IMG_9240.jpg",
+      "text_de": "Halte das Renntempo hoch und mach weniger Boxenstopps! ADDIERE 4 ZU DEINEM WURF, WENN DEIN ZUG IM GELBEN ABSCHNITT DES MONOPOLY GRAND PRIX™ BEGINNT ODER ENDET.",
+      "text_ru": "Поддерживайте высокий гоночный темп и реже заезжайте на пит-стоп! Добавьте 4 к своему броску, если ваш ход начинается или заканчивается на жёлтом участке трассы Monopoly Grand Prix.",
+      "keywords": [
+        "medium-reifen",
+        "шины medium",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "medium reifen шины medium halte das renntempo hoch und mach weniger boxenstopps addiere 4 zu deinem wurf wenn dein zug im gelben abschnitt des monopoly grand prix beginnt oder endet поддерживайте высокий гоночный темп и реже заезжайте на пит стоп добавьте 4 к своему броску если ваш ход начинается или заканчивается на желтом участке трассы monopoly grand prix medium reifen шины medium auto автомобиль"
+    },
+    {
+      "id": "auto-011",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Regenreifen",
+      "title_ru": "Дождевые шины",
+      "explanation_ru": "Не нужно останавливаться при достижении синего участка Grand Prix.",
+      "copies": 2,
+      "source": "IMG_9240.jpg",
+      "text_de": "Die sorgen für maximalen Grip bei Regen! DU MUSST NICHT ANHALTEN, WENN DU IM MONOPOLY GRAND PRIX™ EINEN BLAUEN ABSCHNITT ERREICHST.",
+      "text_ru": "Они обеспечивают максимальное сцепление под дождём! На трассе Monopoly Grand Prix вам не нужно останавливаться при достижении синего участка.",
+      "keywords": [
+        "regenreifen",
+        "дождевые шины",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "regenreifen дождевые шины die sorgen für maximalen grip bei regen du musst nicht anhalten wenn du im monopoly grand prix einen blauen abschnitt erreichst они обеспечивают максимальное сцепление под дождем на трассе monopoly grand prix вам не нужно останавливаться при достижении синего участка regenreifen дождевые шины auto автомобиль"
+    },
+    {
+      "id": "auto-012",
+      "category": "auto",
+      "subtype": "part",
+      "title_de": "Harte Reifen",
+      "title_ru": "Жёсткие шины",
+      "explanation_ru": "+4 к броску, если ход начинается или заканчивается на белом участке Grand Prix.",
+      "copies": 2,
+      "source": "IMG_9240.jpg",
+      "text_de": "Du fährst damit nicht die schnellste Runde, aber du musst auch nicht an die Box! ADDIERE 4 ZU DEINEM WURF, WENN DEIN ZUG IM WEISSEN ABSCHNITT DES MONOPOLY GRAND PRIX™ BEGINNT ODER ENDET.",
+      "text_ru": "На них вы не покажете самый быстрый круг, зато сможете дольше обходиться без пит-стопа! Добавьте 4 к своему броску, если ваш ход начинается или заканчивается на белом участке трассы Monopoly Grand Prix.",
+      "keywords": [
+        "harte reifen",
+        "жёсткие шины",
+        "auto",
+        "автомобиль"
+      ],
+      "search_text": "harte reifen жесткие шины du fährst damit nicht die schnellste runde aber du musst auch nicht an die box addiere 4 zu deinem wurf wenn dein zug im weissen abschnitt des monopoly grand prix beginnt oder endet на них вы не покажете самый быстрый круг зато сможете дольше обходиться без пит стопа добавьте 4 к своему броску если ваш ход начинается или заканчивается на белом участке трассы monopoly grand prix harte reifen жесткие шины auto автомобиль"
+    }
+  ],
+  "driver_cards": [
+    {
+      "id": "driver-001",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Neue Reifen",
+      "title_ru": "Новые шины",
+      "explanation_ru": "Получите 10 очков из банка.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Entscheidend für deine schnellste Runde. DU ERHÄLTST 10 PUNKTE VON DER BANK.",
+      "text_ru": "Новые шины помогут показать быстрый круг. Получите 10 очков из банка.",
+      "keywords": [
+        "neue reifen",
+        "новые шины",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "neue reifen новые шины entscheidend für deine schnellste runde du erhältst 10 punkte von der bank новые шины помогут показать быстрый круг получите 10 очков из банка neue reifen новые шины fahrer пилот"
+    },
+    {
+      "id": "driver-002",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Anfechtung einer Strafe",
+      "title_ru": "Обжалование штрафа",
+      "explanation_ru": "Карта выхода из тюрьмы бесплатно; можно хранить, продавать и обменивать.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Es stellte sich heraus, dass es nur ein Rennunfall war! DU KOMMST AUS DEM GEFÄNGNIS FREI. Du darfst diese Karte behalten, bis du sie brauchst, tauschst oder verkaufst.",
+      "text_ru": "Выяснилось, что это был всего лишь гоночный инцидент! Вы выходите из тюрьмы бесплатно. Эту карту можно сохранить до нужного момента, обменять или продать.",
+      "keywords": [
+        "anfechtung einer strafe",
+        "обжалование штрафа",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "anfechtung einer strafe обжалование штрафа es stellte sich heraus dass es nur ein rennunfall war du kommst aus dem gefängnis frei du darfst diese karte behalten bis du sie brauchst tauschst oder verkaufst выяснилось что это был всего лишь гоночный инцидент вы выходите из тюрьмы бесплатно эту карту можно сохранить до нужного момента обменять или продать anfechtung einer strafe обжалование штрафа fahrer пилот"
+    },
+    {
+      "id": "driver-003",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Vorgezogener Boxenstopp",
+      "title_ru": "Ранний пит-стоп",
+      "explanation_ru": "Сохраните карту и один раз получите +5 к броску в гоночной дуэли.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Behalte diese Karte, bis du sie benutzen möchtest. Wenn du den richtigen Zeitpunkt wählst, könntest du die Führung übernehmen! ADDIERE 5 ZU EINEM BELIEBIGEN WURF IN EINEM RENNDUELL.",
+      "text_ru": "Сохраните эту карту до момента использования. Если правильно выбрать момент, можно захватить лидерство! Добавьте 5 к любому своему броску в гоночной дуэли.",
+      "keywords": [
+        "vorgezogener boxenstopp",
+        "ранний пит-стоп",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "vorgezogener boxenstopp ранний пит стоп behalte diese karte bis du sie benutzen möchtest wenn du den richtigen zeitpunkt wählst könntest du die führung übernehmen addiere 5 zu einem beliebigen wurf in einem rennduell сохраните эту карту до момента использования если правильно выбрать момент можно захватить лидерство добавьте 5 к любому своему броску в гоночной дуэли vorgezogener boxenstopp ранний пит стоп fahrer пилот"
+    },
+    {
+      "id": "driver-004",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Sprint Weekend",
+      "title_ru": "Спринт-уикенд",
+      "explanation_ru": "Перейдите на СТАРТ, получите 20 очков и продвиньтесь по Grand Prix.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Hier kannst du schnell ein paar Punkte holen! RÜCKE VOR BIS AUF LOS. DU ERHÄLTST 20 PUNKTE VON DER BANK UND RÜCKST IM MONOPOLY GRAND PRIX™ VOR.",
+      "text_ru": "Здесь можно быстро заработать несколько очков! Переместитесь вперёд до клетки «СТАРТ». Получите 20 очков из банка и продвиньтесь по трассе Monopoly Grand Prix.",
+      "keywords": [
+        "sprint weekend",
+        "спринт-уикенд",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "sprint weekend спринт уикенд hier kannst du schnell ein paar punkte holen rücke vor bis auf los du erhältst 20 punkte von der bank und rückst im monopoly grand prix vor здесь можно быстро заработать несколько очков переместитесь вперед до клетки старт получите 20 очков из банка и продвиньтесь по трассе monopoly grand prix sprint weekend спринт уикенд fahrer пилот"
+    },
+    {
+      "id": "driver-005",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Startplatz-Strafe",
+      "title_ru": "Штраф на стартовой решётке",
+      "explanation_ru": "Немедленно отправляйтесь в тюрьму без 20 очков за СТАРТ.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Du hast einen Crash verursacht und wirst in der Startaufstellung 5 Plätze zurückgesetzt! GEHE IN DAS GEFÄNGNIS. BEGIB DICH DIREKT DORTHIN. ZIEHE NICHT ÜBER LOS. DU ERHÄLTST KEINE 20 PUNKTE.",
+      "text_ru": "Вы стали причиной аварии и получаете штраф в пять позиций на старте! Отправляйтесь в тюрьму. Переместитесь туда немедленно. Не проходите через «СТАРТ» и не получайте 20 очков.",
+      "keywords": [
+        "startplatz-strafe",
+        "штраф на стартовой решётке",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "startplatz strafe штраф на стартовой решетке du hast einen crash verursacht und wirst in der startaufstellung 5 plätze zurückgesetzt gehe in das gefängnis begib dich direkt dorthin ziehe nicht über los du erhältst keine 20 punkte вы стали причиной аварии и получаете штраф в пять позиций на старте отправляйтесь в тюрьму переместитесь туда немедленно не проходите через старт и не получайте 20 очков startplatz strafe штраф на стартовой решетке fahrer пилот"
+    },
+    {
+      "id": "driver-006",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Rennen außerhalb Europas (Flyaway)",
+      "title_ru": "Выездная гонка (Flyaway)",
+      "explanation_ru": "Идите до следующей гонки; если раньше встретится СТАРТ, остановитесь там и выполните его действие.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Kann dein Team auch Tausende von Kilometern entfernt konzentriert bleiben? RÜCKE VOR BIS ZUM NÄCHSTEN RENNFELD. Führe die Anweisung für dieses Feld aus. Ziehst du über LOS, stoppe dort. Du erhältst 20 Punkte von der Bank und rückst im Monopoly Grand Prix™ vor.",
+      "text_ru": "Сможет ли команда сохранить концентрацию за тысячи километров от дома? Переместитесь вперёд до следующей гоночной клетки и выполните её действие. Если по пути вы достигаете «СТАРТА», остановитесь там, получите 20 очков из банка и продвиньтесь по трассе Monopoly Grand Prix.",
+      "keywords": [
+        "rennen außerhalb europas (flyaway)",
+        "выездная гонка (flyaway)",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "rennen außerhalb europas flyaway выездная гонка flyaway kann dein team auch tausende von kilometern entfernt konzentriert bleiben rücke vor bis zum nächsten rennfeld führe die anweisung für dieses feld aus ziehst du über los stoppe dort du erhältst 20 punkte von der bank und rückst im monopoly grand prix vor сможет ли команда сохранить концентрацию за тысячи километров от дома переместитесь вперед до следующей гоночной клетки и выполните ее действие если по пути вы достигаете старта остановитесь там получите 20 очков из банка и продвиньтесь по трассе monopoly grand prix rennen außerhalb europas flyaway выездная гонка flyaway fahrer пилот"
+    },
+    {
+      "id": "driver-007",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Heimvorteil",
+      "title_ru": "Домашнее преимущество",
+      "explanation_ru": "Сыграйте карту, чтобы немедленно выиграть любую гоночную дуэль.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Behalte diese Karte, bis du sie benutzen möchtest. Der Wert der Fans lässt sich nicht in Zahlen ausdrücken! SPIELE DIESE KARTE AUS, UM SOFORT EIN BELIEBIGES RENNDUELL ZU GEWINNEN.",
+      "text_ru": "Сохраните эту карту до момента использования. Поддержку болельщиков невозможно измерить цифрами! Сыграйте эту карту, чтобы немедленно выиграть любую гоночную дуэль.",
+      "keywords": [
+        "heimvorteil",
+        "домашнее преимущество",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "heimvorteil домашнее преимущество behalte diese karte bis du sie benutzen möchtest der wert der fans lässt sich nicht in zahlen ausdrücken spiele diese karte aus um sofort ein beliebiges rennduell zu gewinnen сохраните эту карту до момента использования поддержку болельщиков невозможно измерить цифрами сыграйте эту карту чтобы немедленно выиграть любую гоночную дуэль heimvorteil домашнее преимущество fahrer пилот"
+    },
+    {
+      "id": "driver-008",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Du triffst den idealen Bremspunkt",
+      "title_ru": "Идеальная точка торможения",
+      "explanation_ru": "Получите 20 очков из банка.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Du triffst den idealen Bremspunkt und nimmst die Kurve mit beeindruckender Geschwindigkeit! DU ERHÄLTST 20 PUNKTE VON DER BANK.",
+      "text_ru": "Вы идеально выбрали точку торможения и проходите поворот на впечатляющей скорости! Получите 20 очков из банка.",
+      "keywords": [
+        "du triffst den idealen bremspunkt",
+        "идеальная точка торможения",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "du triffst den idealen bremspunkt идеальная точка торможения du triffst den idealen bremspunkt und nimmst die kurve mit beeindruckender geschwindigkeit du erhältst 20 punkte von der bank вы идеально выбрали точку торможения и проходите поворот на впечатляющей скорости получите 20 очков из банка du triffst den idealen bremspunkt идеальная точка торможения fahrer пилот"
+    },
+    {
+      "id": "driver-009",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Poleposition",
+      "title_ru": "Поул-позиция",
+      "explanation_ru": "Получите по 10 очков от каждого соперника.",
+      "copies": 1,
+      "source": "IMG_9236.jpg",
+      "text_de": "Als Erster zu starten, ist gut. Als Erster ins Ziel zu kommen, ist besser. DU ERHÄLTST 10 PUNKTE VON JEDEM GEGNER.",
+      "text_ru": "Стартовать первым хорошо. Финишировать первым — ещё лучше. Получите по 10 очков от каждого соперника.",
+      "keywords": [
+        "poleposition",
+        "поул-позиция",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "poleposition поул позиция als erster zu starten ist gut als erster ins ziel zu kommen ist besser du erhältst 10 punkte von jedem gegner стартовать первым хорошо финишировать первым еще лучше получите по 10 очков от каждого соперника poleposition поул позиция fahrer пилот"
+    },
+    {
+      "id": "driver-010",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Auf und ab hüpfen",
+      "title_ru": "Порпоизинг",
+      "explanation_ru": "Заплатите банку 20 очков.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Du verlierst wichtige Sekunden! ZAHLE 20 PUNKTE AN DIE BANK.",
+      "text_ru": "Вы теряете драгоценные секунды! Заплатите банку 20 очков.",
+      "keywords": [
+        "auf und ab hüpfen",
+        "порпоизинг",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "auf und ab hüpfen порпоизинг du verlierst wichtige sekunden zahle 20 punkte an die bank вы теряете драгоценные секунды заплатите банку 20 очков auf und ab hüpfen порпоизинг fahrer пилот"
+    },
+    {
+      "id": "driver-011",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Getriebewechsel-Strafe",
+      "title_ru": "Штраф за замену коробки передач",
+      "explanation_ru": "Переместитесь на 3 клетки назад и выполните действие новой клетки.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Nicht ideal, aber notwendig, damit du mit deinem Auto weiterfahren kannst. GEHE 3 FELDER ZURÜCK. Befolge die Regeln des Feldes, auf dem du landest.",
+      "text_ru": "Не лучший вариант, но это необходимо, чтобы машина могла продолжить гонку. Переместитесь на 3 клетки назад и выполните действие клетки, на которой остановились.",
+      "keywords": [
+        "getriebewechsel-strafe",
+        "штраф за замену коробки передач",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "getriebewechsel strafe штраф за замену коробки передач nicht ideal aber notwendig damit du mit deinem auto weiterfahren kannst gehe 3 felder zurück befolge die regeln des feldes auf dem du landest не лучший вариант но это необходимо чтобы машина могла продолжить гонку переместитесь на 3 клетки назад и выполните действие клетки на которой остановились getriebewechsel strafe штраф за замену коробки передач fahrer пилот"
+    },
+    {
+      "id": "driver-012",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Vertragsauflösung",
+      "title_ru": "Расторжение контракта",
+      "explanation_ru": "Обменяйте одну свою карту гонки на карту соперника; нельзя брать карту из полной цветовой группы.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Behalte diese Karte, bis du sie benutzen möchtest. Ein neuer Teamkollege könnte genau das sein, was du brauchst, um auf das Podium zu kommen! TAUSCHE EINE DEINER RENNKARTEN GEGEN EINE RENNKARTE EINES GEGNERS. Du darfst dabei keine Rennkarten aus einer kompletten Farbgruppe nehmen.",
+      "text_ru": "Сохраните эту карту до момента использования. Возможно, новый напарник — именно то, что нужно для подиума! Обменяйте одну свою карту гонки на одну карту гонки соперника. Нельзя брать карту, входящую в полную цветовую группу.",
+      "keywords": [
+        "vertragsauflösung",
+        "расторжение контракта",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "vertragsauflösung расторжение контракта behalte diese karte bis du sie benutzen möchtest ein neuer teamkollege könnte genau das sein was du brauchst um auf das podium zu kommen tausche eine deiner rennkarten gegen eine rennkarte eines gegners du darfst dabei keine rennkarten aus einer kompletten farbgruppe nehmen сохраните эту карту до момента использования возможно новый напарник именно то что нужно для подиума обменяйте одну свою карту гонки на одну карту гонки соперника нельзя брать карту входящую в полную цветовую группу vertragsauflösung расторжение контракта fahrer пилот"
+    },
+    {
+      "id": "driver-013",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Spätes Bremsen",
+      "title_ru": "Позднее торможение",
+      "explanation_ru": "Заберите у соперника одну карту гонки, если она не входит в полную цветовую группу.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Behalte diese Karte, bis du sie benutzen möchtest. Bremse spät in der Kurve und lenke nach innen, um zu überholen. NIMM DIR EINE RENNKARTE VON EINEM DEINER GEGNER. Du darfst keine Rennkarte aus einer kompletten Farbgruppe nehmen.",
+      "text_ru": "Сохраните эту карту до момента использования. Тормозите поздно и ныряйте внутрь поворота, чтобы провести обгон. Заберите одну карту гонки у любого соперника. Нельзя брать карту из полной цветовой группы.",
+      "keywords": [
+        "spätes bremsen",
+        "позднее торможение",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "spätes bremsen позднее торможение behalte diese karte bis du sie benutzen möchtest bremse spät in der kurve und lenke nach innen um zu überholen nimm dir eine rennkarte von einem deiner gegner du darfst keine rennkarte aus einer kompletten farbgruppe nehmen сохраните эту карту до момента использования тормозите поздно и ныряйте внутрь поворота чтобы провести обгон заберите одну карту гонки у любого соперника нельзя брать карту из полной цветовой группы spätes bremsen позднее торможение fahrer пилот"
+    },
+    {
+      "id": "driver-014",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Blaue Flagge",
+      "title_ru": "Синий флаг",
+      "explanation_ru": "Заплатите каждому сопернику 10 очков.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Als Nachzügler musst du die schnelleren Autos vorbeifahren lassen. ZAHLE JEDEM GEGNER 10 PUNKTE.",
+      "text_ru": "Как отстающий пилот, вы должны пропустить более быстрые машины. Заплатите каждому сопернику по 10 очков.",
+      "keywords": [
+        "blaue flagge",
+        "синий флаг",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "blaue flagge синий флаг als nachzügler musst du die schnelleren autos vorbeifahren lassen zahle jedem gegner 10 punkte как отстающий пилот вы должны пропустить более быстрые машины заплатите каждому сопернику по 10 очков blaue flagge синий флаг fahrer пилот"
+    },
+    {
+      "id": "driver-015",
+      "category": "driver",
+      "subtype": "event",
+      "title_de": "Untersteuern",
+      "title_ru": "Недостаточная поворачиваемость",
+      "explanation_ru": "Заплатите банку 30 очков.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Du bremst viel zu aggressiv! ZAHLE 30 PUNKTE AN DIE BANK.",
+      "text_ru": "Вы тормозите слишком агрессивно! Заплатите банку 30 очков.",
+      "keywords": [
+        "untersteuern",
+        "недостаточная поворачиваемость",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "untersteuern недостаточная поворачиваемость du bremst viel zu aggressiv zahle 30 punkte an die bank вы тормозите слишком агрессивно заплатите банку 30 очков untersteuern недостаточная поворачиваемость fahrer пилот"
+    },
+    {
+      "id": "driver-016",
+      "category": "driver",
+      "subtype": "keep",
+      "title_de": "Switchback-Überholmanöver",
+      "title_ru": "Обгон через свитчбэк",
+      "explanation_ru": "Заберите у соперника одну карту гонки, если она не входит в полную цветовую группу.",
+      "copies": 1,
+      "source": "IMG_9237.jpg",
+      "text_de": "Behalte diese Karte, bis du sie benutzen möchtest. Ein beeindruckender Schwenk zurück auf die Innenbahn! NIMM DIR EINE RENNKARTE VON EINEM DEINER GEGNER. Du darfst keine Rennkarte aus einer kompletten Farbgruppe nehmen.",
+      "text_ru": "Сохраните эту карту до момента использования. Эффектный возврат на внутреннюю траекторию! Заберите одну карту гонки у любого соперника. Нельзя брать карту из полной цветовой группы.",
+      "keywords": [
+        "switchback-überholmanöver",
+        "обгон через свитчбэк",
+        "fahrer",
+        "пилот"
+      ],
+      "search_text": "switchback überholmanöver обгон через свитчбэк behalte diese karte bis du sie benutzen möchtest ein beeindruckender schwenk zurück auf die innenbahn nimm dir eine rennkarte von einem deiner gegner du darfst keine rennkarte aus einer kompletten farbgruppe nehmen сохраните эту карту до момента использования эффектный возврат на внутреннюю траекторию заберите одну карту гонки у любого соперника нельзя брать карту из полной цветовой группы switchback überholmanöver обгон через свитчбэк fahrer пилот"
+    }
+  ],
+  "pit_stop_cards": [
+    {
+      "id": "pit-stop-001",
+      "category": "pit_stop",
+      "title_de": "Boxenstopp",
+      "title_ru": "Пит-стоп",
+      "effect": {
+        "low_range": [
+          1,
+          7
+        ],
+        "low_modifier": -3,
+        "high_range": [
+          8,
+          12
+        ],
+        "high_modifier": 4
+      },
+      "copies": 1,
+      "source": "IMG_9242.jpg",
+      "text_de": "WÜRFLE VOR DEM VORRÜCKEN IM MONOPOLY GRAND PRIX™ MIT BEIDEN WÜRFELN, UM DIE EFFIZIENZ DEINER BOXENCREW ZU PRÜFEN! Würfelst du eine 1–7: Ziehe 3 von deinem Wurf ab. Würfelst du eine 8–12: Addiere 4 zu deinem Wurf.",
+      "text_ru": "Перед продвижением по трассе Monopoly Grand Prix бросьте оба кубика, чтобы проверить эффективность своей пит-бригады. Если сумма броска 1–7, вычтите 3 из результата движения. Если сумма 8–12, добавьте 4 к результату движения.",
+      "explanation_ru": "1–7: -3; 8–12: +4 к движению.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп",
+        "1-7",
+        "8-12",
+        "-3",
+        "+4"
+      ],
+      "search_text": "boxenstopp пит стоп würfle vor dem vorrücken im monopoly grand prix mit beiden würfeln um die effizienz deiner boxencrew zu prüfen würfelst du eine 1 7 ziehe 3 von deinem wurf ab würfelst du eine 8 12 addiere 4 zu deinem wurf перед продвижением по трассе monopoly grand prix бросьте оба кубика чтобы проверить эффективность своей пит бригады если сумма броска 1 7 вычтите 3 из результата движения если сумма 8 12 добавьте 4 к результату движения boxenstopp pit stop пит стоп 1 7 8 12 3 4"
+    },
+    {
+      "id": "pit-stop-002",
+      "category": "pit_stop",
+      "title_de": "Boxenstopp",
+      "title_ru": "Пит-стоп",
+      "effect": {
+        "low_range": [
+          1,
+          9
+        ],
+        "low_modifier": -1,
+        "high_range": [
+          10,
+          12
+        ],
+        "high_modifier": 5
+      },
+      "copies": 1,
+      "source": "IMG_9242.jpg",
+      "text_de": "WÜRFLE VOR DEM VORRÜCKEN IM MONOPOLY GRAND PRIX™ MIT BEIDEN WÜRFELN, UM DIE EFFIZIENZ DEINER BOXENCREW ZU PRÜFEN! Würfelst du eine 1–9: Ziehe 1 von deinem Wurf ab. Würfelst du eine 10–12: Addiere 5 zu deinem Wurf.",
+      "text_ru": "Перед продвижением по трассе Monopoly Grand Prix бросьте оба кубика, чтобы проверить эффективность своей пит-бригады. Если сумма броска 1–9, вычтите 1 из результата движения. Если сумма 10–12, добавьте 5 к результату движения.",
+      "explanation_ru": "1–9: -1; 10–12: +5 к движению.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп",
+        "1-9",
+        "10-12",
+        "-1",
+        "+5"
+      ],
+      "search_text": "boxenstopp пит стоп würfle vor dem vorrücken im monopoly grand prix mit beiden würfeln um die effizienz deiner boxencrew zu prüfen würfelst du eine 1 9 ziehe 1 von deinem wurf ab würfelst du eine 10 12 addiere 5 zu deinem wurf перед продвижением по трассе monopoly grand prix бросьте оба кубика чтобы проверить эффективность своей пит бригады если сумма броска 1 9 вычтите 1 из результата движения если сумма 10 12 добавьте 5 к результату движения boxenstopp pit stop пит стоп 1 9 10 12 1 5"
+    },
+    {
+      "id": "pit-stop-003",
+      "category": "pit_stop",
+      "title_de": "Boxenstopp",
+      "title_ru": "Пит-стоп",
+      "effect": {
+        "low_range": [
+          1,
+          7
+        ],
+        "low_modifier": -2,
+        "high_range": [
+          8,
+          12
+        ],
+        "high_modifier": 3
+      },
+      "copies": 2,
+      "source": "IMG_9242.jpg",
+      "text_de": "WÜRFLE VOR DEM VORRÜCKEN IM MONOPOLY GRAND PRIX™ MIT BEIDEN WÜRFELN, UM DIE EFFIZIENZ DEINER BOXENCREW ZU PRÜFEN! Würfelst du eine 1–7: Ziehe 2 von deinem Wurf ab. Würfelst du eine 8–12: Addiere 3 zu deinem Wurf.",
+      "text_ru": "Перед продвижением по трассе Monopoly Grand Prix бросьте оба кубика, чтобы проверить эффективность своей пит-бригады. Если сумма броска 1–7, вычтите 2 из результата движения. Если сумма 8–12, добавьте 3 к результату движения.",
+      "explanation_ru": "1–7: -2; 8–12: +3 к движению.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп",
+        "1-7",
+        "8-12",
+        "-2",
+        "+3"
+      ],
+      "search_text": "boxenstopp пит стоп würfle vor dem vorrücken im monopoly grand prix mit beiden würfeln um die effizienz deiner boxencrew zu prüfen würfelst du eine 1 7 ziehe 2 von deinem wurf ab würfelst du eine 8 12 addiere 3 zu deinem wurf перед продвижением по трассе monopoly grand prix бросьте оба кубика чтобы проверить эффективность своей пит бригады если сумма броска 1 7 вычтите 2 из результата движения если сумма 8 12 добавьте 3 к результату движения boxenstopp pit stop пит стоп 1 7 8 12 2 3"
+    },
+    {
+      "id": "pit-stop-004",
+      "category": "pit_stop",
+      "title_de": "Boxenstopp",
+      "title_ru": "Пит-стоп",
+      "effect": {
+        "low_range": [
+          1,
+          6
+        ],
+        "low_modifier": -2,
+        "high_range": [
+          7,
+          12
+        ],
+        "high_modifier": 2
+      },
+      "copies": 1,
+      "source": "IMG_9242.jpg",
+      "text_de": "WÜRFLE VOR DEM VORRÜCKEN IM MONOPOLY GRAND PRIX™ MIT BEIDEN WÜRFELN, UM DIE EFFIZIENZ DEINER BOXENCREW ZU PRÜFEN! Würfelst du eine 1–6: Ziehe 2 von deinem Wurf ab. Würfelst du eine 7–12: Addiere 2 zu deinem Wurf.",
+      "text_ru": "Перед продвижением по трассе Monopoly Grand Prix бросьте оба кубика, чтобы проверить эффективность своей пит-бригады. Если сумма броска 1–6, вычтите 2 из результата движения. Если сумма 7–12, добавьте 2 к результату движения.",
+      "explanation_ru": "1–6: -2; 7–12: +2 к движению.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп",
+        "1-6",
+        "7-12",
+        "-2",
+        "+2"
+      ],
+      "search_text": "boxenstopp пит стоп würfle vor dem vorrücken im monopoly grand prix mit beiden würfeln um die effizienz deiner boxencrew zu prüfen würfelst du eine 1 6 ziehe 2 von deinem wurf ab würfelst du eine 7 12 addiere 2 zu deinem wurf перед продвижением по трассе monopoly grand prix бросьте оба кубика чтобы проверить эффективность своей пит бригады если сумма броска 1 6 вычтите 2 из результата движения если сумма 7 12 добавьте 2 к результату движения boxenstopp pit stop пит стоп 1 6 7 12 2 2"
+    },
+    {
+      "id": "pit-stop-005",
+      "category": "pit_stop",
+      "title_de": "Boxenstopp",
+      "title_ru": "Пит-стоп",
+      "effect": {
+        "low_range": [
+          1,
+          8
+        ],
+        "low_modifier": -2,
+        "high_range": [
+          9,
+          12
+        ],
+        "high_modifier": 5
+      },
+      "copies": 1,
+      "source": "IMG_9242.jpg",
+      "text_de": "WÜRFLE VOR DEM VORRÜCKEN IM MONOPOLY GRAND PRIX™ MIT BEIDEN WÜRFELN, UM DIE EFFIZIENZ DEINER BOXENCREW ZU PRÜFEN! Würfelst du eine 1–8: Ziehe 2 von deinem Wurf ab. Würfelst du eine 9–12: Addiere 5 zu deinem Wurf.",
+      "text_ru": "Перед продвижением по трассе Monopoly Grand Prix бросьте оба кубика, чтобы проверить эффективность своей пит-бригады. Если сумма броска 1–8, вычтите 2 из результата движения. Если сумма 9–12, добавьте 5 к результату движения.",
+      "explanation_ru": "1–8: -2; 9–12: +5 к движению.",
+      "keywords": [
+        "boxenstopp",
+        "pit stop",
+        "пит-стоп",
+        "1-8",
+        "9-12",
+        "-2",
+        "+5"
+      ],
+      "search_text": "boxenstopp пит стоп würfle vor dem vorrücken im monopoly grand prix mit beiden würfeln um die effizienz deiner boxencrew zu prüfen würfelst du eine 1 8 ziehe 2 von deinem wurf ab würfelst du eine 9 12 addiere 5 zu deinem wurf перед продвижением по трассе monopoly grand prix бросьте оба кубика чтобы проверить эффективность своей пит бригады если сумма броска 1 8 вычтите 2 из результата движения если сумма 9 12 добавьте 5 к результату движения boxenstopp pit stop пит стоп 1 8 9 12 2 5"
+    }
+  ],
+  "races": [
+    {
+      "id": "race-001",
+      "category": "race",
+      "title_de": "Singapur",
+      "title_ru": "Сингапур",
+      "color_group": "teal",
+      "facts": {
+        "first_grand_prix": 2008,
+        "track_length_km": 4.927,
+        "laps": 62,
+        "race_distance_km": 305.337
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "dice",
+        "normal": "F1_d10",
+        "full_group": "(F1+red)_d10",
+        "f1_symbol_value": 1
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: F1-Würfel × 10. Mit kompletter Farbgruppe: (F1-Würfel + roter Würfel) × 10. F1 = 1.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: результат белого F1-кубика × 10. При полной цветовой группе: (белый F1-кубик + красный кубик) × 10; символ F1 считается за 1.",
+      "explanation_ru": "Особая плата: F1-кубик × 10; при полной группе сумма двух кубиков × 10.",
+      "keywords": [
+        "singapur",
+        "сингапур",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9220.jpg",
+        "IMG_9232.jpg"
+      ],
+      "search_text": "singapur сингапур landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr f1 würfel 10 mit kompletter farbgruppe f1 würfel roter würfel 10 f1 1 если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль результат белого f1 кубика 10 при полной цветовой группе белый f1 кубик красный кубик 10 символ f1 считается за 1 singapur сингапур rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-002",
+      "category": "race",
+      "title_de": "Montréal, Kanada",
+      "title_ru": "Монреаль, Канада",
+      "color_group": "teal",
+      "facts": {
+        "first_grand_prix": 1978,
+        "track_length_km": 4.361,
+        "laps": 70,
+        "race_distance_km": 305.27
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "dice",
+        "normal": "F1_d10",
+        "full_group": "(F1+red)_d10",
+        "f1_symbol_value": 1
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: F1-Würfel × 10. Mit kompletter Farbgruppe: (F1-Würfel + roter Würfel) × 10. F1 = 1.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: результат белого F1-кубика × 10. При полной цветовой группе: (белый F1-кубик + красный кубик) × 10; символ F1 считается за 1.",
+      "explanation_ru": "Особая плата: F1-кубик × 10; при полной группе сумма двух кубиков × 10.",
+      "keywords": [
+        "montréal, kanada",
+        "монреаль, канада",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9221.jpg",
+        "IMG_9232.jpg"
+      ],
+      "search_text": "montréal kanada монреаль канада landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr f1 würfel 10 mit kompletter farbgruppe f1 würfel roter würfel 10 f1 1 если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль результат белого f1 кубика 10 при полной цветовой группе белый f1 кубик красный кубик 10 символ f1 считается за 1 montréal kanada монреаль канада rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-003",
+      "category": "race",
+      "title_de": "Mexiko-Stadt, Mexiko",
+      "title_ru": "Мехико, Мексика",
+      "color_group": "green",
+      "facts": {
+        "first_grand_prix": 1963,
+        "track_length_km": 4.304,
+        "laps": 71,
+        "race_distance_km": 305.354
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 40,
+        "full_group": 80
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 40 Punkte. Mit kompletter Farbgruppe: 80 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 40 очков. При полной цветовой группе: 80 очков.",
+      "explanation_ru": "При победе владельца соперник платит 40 очков; при полной группе — 80.",
+      "keywords": [
+        "mexiko-stadt, mexiko",
+        "мехико, мексика",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9222.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "mexiko stadt mexiko мехико мексика landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 40 punkte mit kompletter farbgruppe 80 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 40 очков при полной цветовой группе 80 очков mexiko stadt mexiko мехико мексика rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-004",
+      "category": "race",
+      "title_de": "São Paulo, Brasilien",
+      "title_ru": "Сан-Паулу, Бразилия",
+      "color_group": "green",
+      "facts": {
+        "first_grand_prix": 1973,
+        "track_length_km": 4.309,
+        "laps": 71,
+        "race_distance_km": 305.879
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 40,
+        "full_group": 80
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 40 Punkte. Mit kompletter Farbgruppe: 80 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 40 очков. При полной цветовой группе: 80 очков.",
+      "explanation_ru": "При победе владельца соперник платит 40 очков; при полной группе — 80.",
+      "keywords": [
+        "são paulo, brasilien",
+        "сан-паулу, бразилия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9222.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "s o paulo brasilien сан паулу бразилия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 40 punkte mit kompletter farbgruppe 80 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 40 очков при полной цветовой группе 80 очков s o paulo brasilien сан паулу бразилия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-005",
+      "category": "race",
+      "title_de": "Las Vegas, USA",
+      "title_ru": "Лас-Вегас, США",
+      "color_group": "green",
+      "facts": {
+        "first_grand_prix": 2023,
+        "track_length_km": 6.201,
+        "laps": 50,
+        "race_distance_km": 309.958
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 40,
+        "full_group": 80
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 40 Punkte. Mit kompletter Farbgruppe: 80 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 40 очков. При полной цветовой группе: 80 очков.",
+      "explanation_ru": "При победе владельца соперник платит 40 очков; при полной группе — 80.",
+      "keywords": [
+        "las vegas, usa",
+        "лас-вегас, сша",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9222.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "las vegas usa лас вегас сша landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 40 punkte mit kompletter farbgruppe 80 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 40 очков при полной цветовой группе 80 очков las vegas usa лас вегас сша rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-006",
+      "category": "race",
+      "title_de": "Lusail, Katar",
+      "title_ru": "Лусаил, Катар",
+      "color_group": "blue",
+      "facts": {
+        "first_grand_prix": 2021,
+        "track_length_km": 5.419,
+        "laps": 57,
+        "race_distance_km": 308.611
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 50,
+        "full_group": 100
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 50 Punkte. Mit kompletter Farbgruppe: 100 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 50 очков. При полной цветовой группе: 100 очков.",
+      "explanation_ru": "При победе владельца соперник платит 50 очков; при полной группе — 100.",
+      "keywords": [
+        "lusail, katar",
+        "лусаил, катар",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9223.jpg",
+        "IMG_9249.jpg"
+      ],
+      "search_text": "lusail katar лусаил катар landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 50 punkte mit kompletter farbgruppe 100 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 50 очков при полной цветовой группе 100 очков lusail katar лусаил катар rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-007",
+      "category": "race",
+      "title_de": "Yas-Insel, Abu Dhabi",
+      "title_ru": "Остров Яс, Абу-Даби",
+      "color_group": "blue",
+      "facts": {
+        "first_grand_prix": 2009,
+        "track_length_km": 5.281,
+        "laps": 58,
+        "race_distance_km": 306.183
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 50,
+        "full_group": 100
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 50 Punkte. Mit kompletter Farbgruppe: 100 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 50 очков. При полной цветовой группе: 100 очков.",
+      "explanation_ru": "При победе владельца соперник платит 50 очков; при полной группе — 100.",
+      "keywords": [
+        "yas-insel, abu dhabi",
+        "остров яс, абу-даби",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9223.jpg",
+        "IMG_9249.jpg"
+      ],
+      "search_text": "yas insel abu dhabi остров яс абу даби landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 50 punkte mit kompletter farbgruppe 100 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 50 очков при полной цветовой группе 100 очков yas insel abu dhabi остров яс абу даби rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-008",
+      "category": "race",
+      "title_de": "Suzuka, Japan",
+      "title_ru": "Судзука, Япония",
+      "color_group": "light_blue",
+      "facts": {
+        "first_grand_prix": 1987,
+        "track_length_km": 5.807,
+        "laps": 53,
+        "race_distance_km": 307.471
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 10,
+        "full_group": 20
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 10 Punkte. Mit kompletter Farbgruppe: 20 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 10 очков. При полной цветовой группе: 20 очков.",
+      "explanation_ru": "При победе владельца соперник платит 10 очков; при полной группе — 20.",
+      "keywords": [
+        "suzuka, japan",
+        "судзука, япония",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9224.jpg",
+        "IMG_9248.jpg"
+      ],
+      "search_text": "suzuka japan судзука япония landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 10 punkte mit kompletter farbgruppe 20 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 10 очков при полной цветовой группе 20 очков suzuka japan судзука япония rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-009",
+      "category": "race",
+      "title_de": "Sakhir, Bahrain",
+      "title_ru": "Сахир, Бахрейн",
+      "color_group": "light_blue",
+      "facts": {
+        "first_grand_prix": 2004,
+        "track_length_km": 5.412,
+        "laps": 57,
+        "race_distance_km": 308.238
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 10,
+        "full_group": 20
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 10 Punkte. Mit kompletter Farbgruppe: 20 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 10 очков. При полной цветовой группе: 20 очков.",
+      "explanation_ru": "При победе владельца соперник платит 10 очков; при полной группе — 20.",
+      "keywords": [
+        "sakhir, bahrain",
+        "сахир, бахрейн",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9224.jpg",
+        "IMG_9248.jpg"
+      ],
+      "search_text": "sakhir bahrain сахир бахрейн landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 10 punkte mit kompletter farbgruppe 20 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 10 очков при полной цветовой группе 20 очков sakhir bahrain сахир бахрейн rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-010",
+      "category": "race",
+      "title_de": "Dschidda, Saudi-Arabien",
+      "title_ru": "Джидда, Саудовская Аравия",
+      "color_group": "light_blue",
+      "facts": {
+        "first_grand_prix": 2021,
+        "track_length_km": 6.174,
+        "laps": 50,
+        "race_distance_km": 308.45
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 10,
+        "full_group": 20
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 10 Punkte. Mit kompletter Farbgruppe: 20 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 10 очков. При полной цветовой группе: 20 очков.",
+      "explanation_ru": "При победе владельца соперник платит 10 очков; при полной группе — 20.",
+      "keywords": [
+        "dschidda, saudi-arabien",
+        "джидда, саудовская аравия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9224.jpg",
+        "IMG_9248.jpg"
+      ],
+      "search_text": "dschidda saudi arabien джидда саудовская аравия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 10 punkte mit kompletter farbgruppe 20 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 10 очков при полной цветовой группе 20 очков dschidda saudi arabien джидда саудовская аравия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-011",
+      "category": "race",
+      "title_de": "Melbourne, Australien",
+      "title_ru": "Мельбурн, Австралия",
+      "color_group": "brown",
+      "facts": {
+        "first_grand_prix": 1996,
+        "track_length_km": 5.278,
+        "laps": 58,
+        "race_distance_km": 306.124
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 10,
+        "full_group": 20
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 10 Punkte. Mit kompletter Farbgruppe: 20 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 10 очков. При полной цветовой группе: 20 очков.",
+      "explanation_ru": "При победе владельца соперник платит 10 очков; при полной группе — 20.",
+      "keywords": [
+        "melbourne, australien",
+        "мельбурн, австралия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9225.jpg",
+        "IMG_9249.jpg"
+      ],
+      "search_text": "melbourne australien мельбурн австралия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 10 punkte mit kompletter farbgruppe 20 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 10 очков при полной цветовой группе 20 очков melbourne australien мельбурн австралия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-012",
+      "category": "race",
+      "title_de": "Shanghai, China",
+      "title_ru": "Шанхай, Китай",
+      "color_group": "brown",
+      "facts": {
+        "first_grand_prix": 2004,
+        "track_length_km": 5.451,
+        "laps": 56,
+        "race_distance_km": 305.066
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 10,
+        "full_group": 20
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 10 Punkte. Mit kompletter Farbgruppe: 20 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 10 очков. При полной цветовой группе: 20 очков.",
+      "explanation_ru": "При победе владельца соперник платит 10 очков; при полной группе — 20.",
+      "keywords": [
+        "shanghai, china",
+        "шанхай, китай",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9225.jpg",
+        "IMG_9249.jpg"
+      ],
+      "search_text": "shanghai china шанхай китай landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 10 punkte mit kompletter farbgruppe 20 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 10 очков при полной цветовой группе 20 очков shanghai china шанхай китай rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-013",
+      "category": "race",
+      "title_de": "Miami Gardens, USA",
+      "title_ru": "Майами-Гарденс, США",
+      "color_group": "pink",
+      "facts": {
+        "first_grand_prix": 2022,
+        "track_length_km": 5.412,
+        "laps": 57,
+        "race_distance_km": 308.326
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "miami gardens, usa",
+        "майами-гарденс, сша",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9226.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "miami gardens usa майами гарденс сша landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков miami gardens usa майами гарденс сша rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-014",
+      "category": "race",
+      "title_de": "Monaco",
+      "title_ru": "Монако",
+      "color_group": "pink",
+      "facts": {
+        "first_grand_prix": 1950,
+        "track_length_km": 3.337,
+        "laps": 78,
+        "race_distance_km": 260.286
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "monaco",
+        "монако",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9226.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "monaco монако landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков monaco монако rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-015",
+      "category": "race",
+      "title_de": "Barcelona, Spanien",
+      "title_ru": "Барселона, Испания",
+      "color_group": "pink",
+      "facts": {
+        "first_grand_prix": 1991,
+        "track_length_km": 4.657,
+        "laps": 66,
+        "race_distance_km": 307.236
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "barcelona, spanien",
+        "барселона, испания",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9226.jpg",
+        "IMG_9250.jpg"
+      ],
+      "search_text": "barcelona spanien барселона испания landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков barcelona spanien барселона испания rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-016",
+      "category": "race",
+      "title_de": "Spielberg, Österreich",
+      "title_ru": "Шпильберг, Австрия",
+      "color_group": "orange",
+      "facts": {
+        "first_grand_prix": 1970,
+        "track_length_km": 4.326,
+        "laps": 71,
+        "race_distance_km": 307.018
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "spielberg, österreich",
+        "шпильберг, австрия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9227.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "spielberg österreich шпильберг австрия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков spielberg österreich шпильберг австрия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-017",
+      "category": "race",
+      "title_de": "Silverstone, Großbritannien",
+      "title_ru": "Сильверстоун, Великобритания",
+      "color_group": "orange",
+      "facts": {
+        "first_grand_prix": 1950,
+        "track_length_km": 5.891,
+        "laps": 52,
+        "race_distance_km": 306.198
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "silverstone, großbritannien",
+        "сильверстоун, великобритания",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9227.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "silverstone großbritannien сильверстоун великобритания landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков silverstone großbritannien сильверстоун великобритания rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-018",
+      "category": "race",
+      "title_de": "Spa-Francorchamps, Belgien",
+      "title_ru": "Спа-Франкоршам, Бельгия",
+      "color_group": "orange",
+      "facts": {
+        "first_grand_prix": 1950,
+        "track_length_km": 7.004,
+        "laps": 44,
+        "race_distance_km": 308.052
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 20,
+        "full_group": 40
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 20 Punkte. Mit kompletter Farbgruppe: 40 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 20 очков. При полной цветовой группе: 40 очков.",
+      "explanation_ru": "При победе владельца соперник платит 20 очков; при полной группе — 40.",
+      "keywords": [
+        "spa-francorchamps, belgien",
+        "спа-франкоршам, бельгия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9227.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "spa francorchamps belgien спа франкоршам бельгия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 20 punkte mit kompletter farbgruppe 40 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 20 очков при полной цветовой группе 40 очков spa francorchamps belgien спа франкоршам бельгия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-019",
+      "category": "race",
+      "title_de": "Madrid, Spanien",
+      "title_ru": "Мадрид, Испания",
+      "color_group": "yellow",
+      "facts": {
+        "first_grand_prix": 2026,
+        "track_length_km": 5.474,
+        "laps": 57,
+        "race_distance_km": 306.544
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "madrid, spanien",
+        "мадрид, испания",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9229.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "madrid spanien мадрид испания landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков madrid spanien мадрид испания rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-020",
+      "category": "race",
+      "title_de": "Baku, Aserbaidschan",
+      "title_ru": "Баку, Азербайджан",
+      "color_group": "yellow",
+      "facts": {
+        "first_grand_prix": 2016,
+        "track_length_km": 6.003,
+        "laps": 51,
+        "race_distance_km": 306.049
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "baku, aserbaidschan",
+        "баку, азербайджан",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9229.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "baku aserbaidschan баку азербайджан landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков baku aserbaidschan баку азербайджан rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-021",
+      "category": "race",
+      "title_de": "Austin, USA",
+      "title_ru": "Остин, США",
+      "color_group": "yellow",
+      "facts": {
+        "first_grand_prix": 2012,
+        "track_length_km": 5.513,
+        "laps": 56,
+        "race_distance_km": 308.405
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "austin, usa",
+        "остин, сша",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9229.jpg",
+        "IMG_9251.jpg"
+      ],
+      "search_text": "austin usa остин сша landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков austin usa остин сша rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-022",
+      "category": "race",
+      "title_de": "Budapest, Ungarn",
+      "title_ru": "Будапешт, Венгрия",
+      "color_group": "red",
+      "facts": {
+        "first_grand_prix": 1986,
+        "track_length_km": 4.381,
+        "laps": 70,
+        "race_distance_km": 306.63
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "budapest, ungarn",
+        "будапешт, венгрия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9231.jpg",
+        "IMG_9247.jpg"
+      ],
+      "search_text": "budapest ungarn будапешт венгрия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков budapest ungarn будапешт венгрия rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-023",
+      "category": "race",
+      "title_de": "Zandvoort, Niederlande",
+      "title_ru": "Зандворт, Нидерланды",
+      "color_group": "red",
+      "facts": {
+        "first_grand_prix": 1952,
+        "track_length_km": 4.259,
+        "laps": 72,
+        "race_distance_km": 306.587
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "zandvoort, niederlande",
+        "зандворт, нидерланды",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9231.jpg",
+        "IMG_9247.jpg"
+      ],
+      "search_text": "zandvoort niederlande зандворт нидерланды landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков zandvoort niederlande зандворт нидерланды rennen rennkarte гонка карта гонки"
+    },
+    {
+      "id": "race-024",
+      "category": "race",
+      "title_de": "Monza, Italien",
+      "title_ru": "Монца, Италия",
+      "color_group": "red",
+      "facts": {
+        "first_grand_prix": 1950,
+        "track_length_km": 5.793,
+        "laps": 53,
+        "race_distance_km": 306.72
+      },
+      "copies": 1,
+      "duel_fee": {
+        "type": "fixed",
+        "normal": 30,
+        "full_group": 60
+      },
+      "text_de": "Landet ein Gegner hier, muss er mit dir um die Rennführung kämpfen! Kassiere die Duellgebühr (siehe Rückseite) von deinem Gegner. Du erhältst nichts und gibst die Karte deinem Gegner (sofern sie nicht Teil einer kompletten Farbgruppe ist). Duellgebühr: 30 Punkte. Mit kompletter Farbgruppe: 60 Punkte.",
+      "text_ru": "Если соперник попадает на эту гонку, он должен сразиться с вами за лидерство! Получите с соперника плату за дуэль (см. обратную сторону). Вы ничего не получаете и передаёте карту сопернику, если она не входит в полную цветовую группу. Плата за дуэль: 30 очков. При полной цветовой группе: 60 очков.",
+      "explanation_ru": "При победе владельца соперник платит 30 очков; при полной группе — 60.",
+      "keywords": [
+        "monza, italien",
+        "монца, италия",
+        "rennen",
+        "rennkarte",
+        "гонка",
+        "карта гонки"
+      ],
+      "source": [
+        "IMG_9231.jpg",
+        "IMG_9247.jpg"
+      ],
+      "search_text": "monza italien монца италия landet ein gegner hier muss er mit dir um die rennführung kämpfen kassiere die duellgebühr siehe rückseite von deinem gegner du erhältst nichts und gibst die karte deinem gegner sofern sie nicht teil einer kompletten farbgruppe ist duellgebühr 30 punkte mit kompletter farbgruppe 60 punkte если соперник попадает на эту гонку он должен сразиться с вами за лидерство получите с соперника плату за дуэль см обратную сторону вы ничего не получаете и передаете карту сопернику если она не входит в полную цветовую группу плата за дуэль 30 очков при полной цветовой группе 60 очков monza italien монца италия rennen rennkarte гонка карта гонки"
+    }
+  ],
+  "validation": {
+    "unique_ids": true,
+    "missing_required_fields": [],
+    "physical_counts": {
+      "races": 24,
+      "drivers": 16,
+      "auto": 16,
+      "pit_stop": 6,
+      "teams": 11
+    },
+    "expected_physical_counts": {
+      "races": 24,
+      "drivers": 16,
+      "auto": 16,
+      "pit_stop": 6,
+      "teams": 11
+    },
+    "physical_counts_match": true,
+    "unique_counts": {
+      "rules": 24,
+      "teams": 11,
+      "auto": 12,
+      "drivers": 16,
+      "pit_stop_effects": 5,
+      "races": 24
+    },
+    "status": "passed"
+  }
+}
